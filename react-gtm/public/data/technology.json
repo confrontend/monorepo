@@ -1,0 +1,251 @@
+{
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Nintendo Life"
+      },
+      "author": "Liam Doolan",
+      "title": "GoldenEye 007's Return Could Be Close - Nintendo Life",
+      "description": "Achievements spotted on Xbox's website",
+      "url": "https://www.nintendolife.com/news/2022/06/goldeneye-007s-return-could-be-close",
+      "urlToImage": "https://images.nintendolife.com/0ebc10ed0730e/1280x720.jpg",
+      "publishedAt": "2022-06-05T19:52:30Z",
+      "content": "Image: EON/MGM\r\nRare's 1997 Nintendo 64 release GoldenEye 007 is arguably one of the greatest video games of all time. The Xbox 360 version was leaked last year, and since then, there have been ongoi… [+1681 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Tripp Mickle, Brian X. Chen",
+      "title": "Apple Sees Virtual-Reality Headset as Its Next Big Thing - The New York Times",
+      "description": "The company has enlisted Hollywood directors like Jon Favreau to help its effort to create products that blend the physical and virtual worlds.",
+      "url": "https://www.nytimes.com/2022/06/04/business/apple-virtual-reality-headset.html",
+      "urlToImage": "https://static01.nyt.com/images/2022/06/04/business/04applevr1/merlin_207983133_56833e4b-b3ae-4c65-954a-0d733176f437-facebookJumbo.jpg",
+      "publishedAt": "2022-06-05T19:27:00Z",
+      "content": "Apples development of virtual-reality content and software tools is central to creating experiences that give its future headset purpose. Its last major new product, the Apple Watch, was launched wit… [+2412 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eurogamer.net"
+      },
+      "author": "Vikki Blake",
+      "title": "Street Fighter 6 leak has shown us \"things we weren't supposed to see\", says Capcom - Eurogamer.net",
+      "description": "Capcom has acknowledged that leaked details and video clips of Street Fighter 6 have shown us \"things we weren't suppos…",
+      "url": "https://www.eurogamer.net/street-fighter-6-leak-has-shown-us-things-we-werent-supposed-to-see-says-capcom",
+      "urlToImage": "https://assets.reedpopcdn.com/Untitled-1_reHc4KB.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/Untitled-1_reHc4KB.jpg",
+      "publishedAt": "2022-06-05T17:15:46Z",
+      "content": "Capcom has acknowledged that leaked details and video clips of Street Fighter 6 have shown us \"things we weren't supposed to see\".\r\nIn the wake of the game's appearance on Thursday's PlayStation Stat… [+1680 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Emma Roth",
+      "title": "The new MacBook Air might come with a long wait time - The Verge",
+      "description": "While Apple is expected to announce the new MacBook Air at WWDC, it may not immediately be available for purchase. According to Mark Gurman, COVID-related closures at factories in China could contribute to long wait times.",
+      "url": "https://www.theverge.com/2022/6/5/23155291/new-macbook-air-long-wait-time-apple-wwdc-covid-closures-china",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/uK7IBBHUs0tcKJMATsswG5lS_xo=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22046476/vpavic_4291_20201113_0366.0.jpg",
+      "publishedAt": "2022-06-05T16:47:06Z",
+      "content": "COVID-related closures in China may affect its launch date\r\nPhoto by Vjeran Pavic / The Verge\r\nApple is poised to reveal a new MacBook Air at its annual Worldwide Developers Conference (WWDC) on Mond… [+3099 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eurogamer.net"
+      },
+      "author": "Vikki Blake",
+      "title": "It costs £88000 to fully upgrade your character in Diablo Immortal - Eurogamer.net",
+      "description": "It costs &pound;88,000 ($110,000) to fully upgrade a character in Diablo Immortal. That's according to Bellular News (t…",
+      "url": "https://www.eurogamer.net/it-costs-88000-to-fully-upgrade-your-character-in-diablo-immortal",
+      "urlToImage": "https://assets.reedpopcdn.com/diablo_immortal_beginners_classes_header.jpeg/BROK/thumbnail/1600x900/format/jpg/quality/80/diablo_immortal_beginners_classes_header.jpeg",
+      "publishedAt": "2022-06-05T15:46:17Z",
+      "content": "It costs £88,000 ($110,000) to fully upgrade a character in Diablo Immortal.\r\nThat's according to Bellular News (thanks, GameRant), which has calculated that to fully max out a character, a player wo… [+1826 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Monica Chin",
+      "title": "We're still waiting for the laptop's big year - The Verge",
+      "description": "At the beginning of this year, it looked like multiple companies were going to be pushing the boundaries of what laptops could look like and be. But COVID-19 and supply chain issues are holding up those groundbreaking releases.",
+      "url": "https://www.theverge.com/2022/6/5/23150224/computex-laptops-ces-hp-lenovo-dell",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/H4YNTXL5-vde5bvLnJZVdreG7Z4=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22146172/akrales_201203_4316_0052.0.jpg",
+      "publishedAt": "2022-06-05T15:30:00Z",
+      "content": "Companies have made huge promises about laptops, but the products still havent materialized\r\nIf you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement.\r\nPhoto … [+7589 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nintendo Life"
+      },
+      "author": "Liam Doolan",
+      "title": "Rumour: A New Crash Bandicoot Game Could Be Revealed Very Soon - Nintendo Life",
+      "description": "\"It's like a four-player brawler almost\"",
+      "url": "https://www.nintendolife.com/news/2022/06/rumour-a-new-crash-bandicoot-game-could-be-revealed-very-soon",
+      "urlToImage": "https://images.nintendolife.com/e8af6db85a93b/1280x720.jpg",
+      "publishedAt": "2022-06-05T14:00:00Z",
+      "content": "Image: Toys for Bob, Activision\r\nIt's believed Crash Bandicoot could soon be returning in a new multiplayer game, with a reveal possibly taking place at some point throughout next week.\r\nAccording to… [+1262 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gematsu"
+      },
+      "author": "Sal Romano",
+      "title": "Labyrinth of Zangetsu launches September 29 in Japan - Gematsu",
+      "description": "3D dungeon RPG Labyrinth of Zangetsu will launch for PlayStation 4, Switch, and PC via Steam on September 29 in Japan for 3,520 yen at retail and 3,300 yen via download…",
+      "url": "https://www.gematsu.com/2022/06/labyrinth-of-zangetsu-launches-september-29-in-japan",
+      "urlToImage": "https://www.gematsu.com/wp-content/uploads/2022/06/Labyrinth-of-Zangetsu_06-05-22.jpg",
+      "publishedAt": "2022-06-05T13:58:40Z",
+      "content": "About\r\nLabyrinth of Zangetsu is new 3D dungeon RPG by Acquire. Its gameplay systems are a return to the “roots” of hack-and-slash. It is a title that emphasizes “wa” (the Japanese-style), which is Ac… [+1460 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gematsu"
+      },
+      "author": "Sal Romano",
+      "title": "Class of Heroes 2 remaster announced for PS4, Switch - Gematsu",
+      "description": "A remastered version of dungeon RPG Class of Heroes 2 is currently in development for PlayStation 4 and Switch, developer Acquire announced. A release date was not announced, but it will be a digital…",
+      "url": "https://www.gematsu.com/2022/06/class-of-heroes-2-remaster-announced-for-ps4-switch",
+      "urlToImage": "https://www.gematsu.com/wp-content/uploads/2022/06/Class-of-Heroes-2_06-05-22.jpg",
+      "publishedAt": "2022-06-05T13:57:27Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gematsu"
+      },
+      "author": "Sal Romano",
+      "title": "Acquire announces strategy RPG Adventure Academia: The Fractured Continent for PS4, Switch, and PC - Gematsu",
+      "description": "Acquire has announced Adventure Academia: The Fractured Continent, a strategy RPG set in the world of Class of Heroes for PlayStation 4, Switch, and PC (Steam). It will launch for all platforms on…",
+      "url": "https://www.gematsu.com/2022/06/acquire-announces-strategy-rpg-adventure-academia-the-fractured-continent-for-ps4-switch-and-pc",
+      "urlToImage": "https://www.gematsu.com/wp-content/uploads/2022/06/Adv-Academia-Ann_06-05-22.jpg",
+      "publishedAt": "2022-06-05T13:56:25Z",
+      "content": "Acquire has announced Adventure Academia: The Fractured Continent, a strategy RPG set in the world of Class of Heroes for PlayStation 4, Switch, and PC (Steam). It will launch for all platforms on Se… [+3681 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Paul Tassi",
+      "title": "The ‘Destiny 2’ Season Of The Haunted Economy Does Not Really Work - Forbes",
+      "description": "Seemingly, all the pieces are in place for a great season of Destiny 2. The Leviathan is back, and we never get patrol spaces as part of a new season. Nightmare Containment is a fun, large-scale activity on the ship. The Sever missions have great story beats …",
+      "url": "https://www.forbes.com/sites/paultassi/2022/06/05/the-destiny-2-season-of-the-haunted-economy-does-not-really-work/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve//629caa96c520c80b0f35366d/0x0.jpg?format=jpg&width=1200",
+      "publishedAt": "2022-06-05T13:40:44Z",
+      "content": "Destiny 2\r\nBungie\r\nSeemingly, all the pieces are in place for a great season of Destiny 2. The Leviathan is back, and we never get patrol spaces as part of a new season. Nightmare Containment is a fu… [+2976 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Joanna Stern",
+      "title": "Apple’s Coming iOS 16: A Wish List - The Wall Street Journal",
+      "description": "An exploration of features missing from our iPhone software and what we hope to see from Apple when it announces the next iOS at WWDC.",
+      "url": "https://www.wsj.com/articles/apples-coming-ios-16-a-wish-list-11654405921",
+      "urlToImage": "https://images.wsj.net/im-556936/social",
+      "publishedAt": "2022-06-05T13:00:00Z",
+      "content": "Please step into my psychic reading room. No, no, dont touch the crystal ball! OK, heres what I see:\r\nSoonvery soonApple will announce the next version of its iPhone operating system with many new fe… [+132 chars]"
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Kelsey Houston-Edwards",
+      "title": "Mathematicians Transcend a Geometric Theory of Motion - WIRED",
+      "description": "More than 30 years ago, Andreas Floer changed geometry. Now, two mathematicians have finally figured out how to extend his revolutionary perspective.",
+      "url": "https://www.wired.com/story/mathematicians-transcend-a-geometric-theory-of-motion/",
+      "urlToImage": "https://media.wired.com/photos/629a4867e6f8c283c8e6513d/191:100/w_1280,c_limit/Screen-Shot-2022-06-03-at-1.43.05-PM.jpg",
+      "publishedAt": "2022-06-05T12:00:00Z",
+      "content": "[Floer] homology theory depends only on the topology of your manifold. [This] is Floers incredible insight, said Agustin Moreno of the Institute for Advanced Study.\r\nFloer theory ended up being wildl… [+3256 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PhoneArena"
+      },
+      "author": "Martin Filipov",
+      "title": "Shockingly similar iPhone 14 Pro and Pixel 7 Pro designs not a coincidence: Is Google copying Apple? - PhoneArena",
+      "description": "Drama! The new Google Pixel 7 Pro's rear looks like a blown-out version of the unannounced iPhone 14 Pro's front. Confusing? It's not a coincidence. But is it... stealing?",
+      "url": "https://www.phonearena.com/news/shockingly-similar-iphone-14-pro-and-pixel-7-pro-designs-not-coincidence-Is-google-copying-apple_id140489",
+      "urlToImage": "https://m-cdn.phonearena.com/images/article/140489-wide-two_1200/Shockingly-similar-iPhone-14-Pro-and-Pixel-7-Pro-designs-not-a-coincidence-Is-Google-copying-Apple.jpg",
+      "publishedAt": "2022-06-05T11:23:05Z",
+      "content": "As you might know, during Google I/O, Sundar Pichai &amp; Co (surprisingly) took the wraps off the Pixel 7 and Pixel 7 Pro about five months before their official release. While we don't have any con… [+8827 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eurogamer.net"
+      },
+      "author": "Jessica Orr",
+      "title": "Pokemon Go A Radiant World research tasks, steps and rewards for Go Fest 2022 - Eurogamer.net",
+      "description": "Complete A Radiant World steps and tasks to get Nihilego, the first Ultra Beast in Pokemon Go as a special reward during Go Fest 2022 Day 2.",
+      "url": "https://www.eurogamer.net/pokemon-go-a-radiant-world-research-tasks-steps-rewards-go-fest-2022-9004",
+      "urlToImage": "https://assets.reedpopcdn.com/Pokemon-Go-A-Radiant-World-research-tasks%2C-steps-and-rewards-for-Go-Fest-2022-Day-2.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/Pokemon-Go-A-Radiant-World-research-tasks%2C-steps-and-rewards-for-Go-Fest-2022-Day-2.jpg",
+      "publishedAt": "2022-06-05T11:18:32Z",
+      "content": "A Radiant World is the second special research quest as part of Pokémon Go Fest 2022 during Day 2.\r\nThe quest will unlock after completing all three steps of the 'Rhi's Arrival' special research for … [+3276 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "How-To Geek"
+      },
+      "author": "Vann Vicente",
+      "title": "What Does “FS” Mean, and How Do You Use It? - How-To Geek",
+      "description": "If someone’s ever sent you “FS” in response to your messages, you should consider it a good sign. Here’s what this initialism means and how to use it in your texts.",
+      "url": "https://www.howtogeek.com/802342/what-does-fs-mean/",
+      "urlToImage": "https://www.howtogeek.com/wp-content/uploads/2022/04/businessman-thumbs-up-yes.jpg?height=200p&trim=2,2,2,2",
+      "publishedAt": "2022-06-05T11:00:02Z",
+      "content": "Krakenimages.com/Shutterstock.com\r\nIf someone’s ever sent you “FS” in response to your messages, you should consider it a good sign. Here’s what this initialism means and how to use it in your texts.… [+4550 chars]"
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Justin Pot",
+      "title": "Gmail Is Kind of a Mess. Here’s How to Fix It - WIRED",
+      "description": "It may be ubiquitous, but Google’s email service can leave a lot to be desired when it comes to looks and functionality.",
+      "url": "https://www.wired.com/story/how-to-fix-gmail-interface/",
+      "urlToImage": "https://media.wired.com/photos/629a98360b696b70815a7a23/191:100/w_1280,c_limit/Fix-Gmail-UI-Gear-GettyImages-1369399402.jpg",
+      "publishedAt": "2022-06-05T11:00:00Z",
+      "content": "There are 1.5 billion (with a b!) active Gmail users, which Google clearly sees as an asset it can leverage. Perhaps you've noticed: Google keeps filling the interface with buttons for other services… [+2038 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nintendo Life"
+      },
+      "author": "Liam Doolan",
+      "title": "New N64 Emulator Plugin Adds Ray Tracing, Widescreen, 60FPS (And More) To Classics Like Zelda & Paper Mario - Nintendo Life",
+      "description": "\"Don't expect this to come out any time soon\"",
+      "url": "https://www.nintendolife.com/news/2022/06/new-n64-emulator-plugin-adds-ray-tracing-widescreen-60fps-and-more-to-classics-like-zelda-and-paper-mario",
+      "urlToImage": "https://images.nintendolife.com/30ffa9465ade4/1280x720.jpg",
+      "publishedAt": "2022-06-05T10:05:00Z",
+      "content": "Image: @dariosamo (via Twitter)\r\nRemember the absolutely stunning showcase of Super Mario 64 with ray tracing? Well, the same individual is now working on a new project that could evolve N64 emulatio… [+2142 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eurogamer.net"
+      },
+      "author": "Lottie Lynn",
+      "title": "Pokémon Go Nihilego weakness, counters and moveset explained - Eurogamer.net",
+      "description": "Everything you need to know about battling Nihilego in Pokémon Go, including Nihilego's weaknesses, counters and moveset.",
+      "url": "https://www.eurogamer.net/pokemon-go-nihilego-weakness-counters-moveset-9004",
+      "urlToImage": "https://assets.reedpopcdn.com/nihilego-pokemon-go-fest-2022.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/nihilego-pokemon-go-fest-2022.jpg",
+      "publishedAt": "2022-06-05T08:22:42Z",
+      "content": "Nihilego is the first Ultra Beast to be added to Pokémon Go and was released as part of Go Fest 2022. \r\nThe Ultra Beasts are part of Gen 7 and, along with Nihilego, there are 11 of these extradimensi… [+3234 chars]"
+    }
+  ]
+}

@@ -1,0 +1,879 @@
+[
+  ["201", "NJ", "Hackensack, Jersey City  (201 & 551);"],
+  ["202", "DC", "Washington D.C.; (202 & 771 overlay);"],
+  ["203", "CT", "New Haven, Bridgeport, NYC suburbs (203 & 475);"],
+  ["204", "MB"],
+  ["205", "AL", "Birmingham, Tuscaloosa;  (205 & 659 overlay);"],
+  [
+    "206",
+    "WA",
+    "Seattle;   (Area code 564 has been added as an overlay on  area code 360 in western Washington, effective  â€Ž2017-08-28â€Ž;  subsequently, area code 564 will also overlay the  Seattle metro area codes 206, 253, and 425,  as they run out of available numbers.);"
+  ],
+  ["207", "ME", "entire state of  Maine"],
+  ["208", "ID", "entire state of  Idaho;  (208 & 986);"],
+  [
+    "209",
+    "CA",
+    "Modesto, Stockton; overlay (350?) expected in early 2022, details t.b.a."
+  ],
+  ["210", "TX", "San Antonio;  (210 & 726);"],
+  ["212", "NY", "New York City"],
+  ["213", "CA", "Los Angeles/downtown"],
+  ["214", "TX", "Dallas and suburbs   (214 & 972 & 469 & 945 overlay);"],
+  ["215", "PA", "Philadelphia (215 & 267 & 445);"],
+  ["216", "OH", "Cleveland"],
+  ["217", "IL", "Champaign, Springfield (217 & 447);"],
+  ["218", "MN", "Duluth, northern"],
+  ["219", "IN", "Gary, northwestern"],
+  ["220", "OH", "Marion, Zanesville, southeastern"],
+  ["223", "PA", "Harrisburg; (717 & 223);"],
+  ["224", "IL", "north suburbs of Chicago (847 & 224);"],
+  ["225", "LA", "Baton Rouge"],
+  ["226", "ON", "London, Windsor, southern;"],
+  ["227", "MD", "Frederick, Maryland suburbs of Washington DC"],
+  ["228", "MS", "Biloxi, Gulfport, extreme southern tip"],
+  ["229", "GA", "Albany, Valdosta, southwestern"],
+  ["231", "MI", "Muskegon, Traverse City"],
+  ["234", "OH", "Akron, Canton, Youngstown (330 & 234);"],
+  ["235", "MO", "Columbia, Jefferson City, central and eastern;"],
+  [
+    "236",
+    "BC",
+    "ðŸ‡¨ðŸ‡¦ entire province ofBritish Columbia,overlays 604,250, 778, and 672"
+  ],
+  ["239", "FL", "Ft. Myers, Naples"],
+  ["240", "MD", "Frederick, suburbs of Washington DC; (301 & 240);"],
+  ["242", "â€”", "ðŸ‡§ðŸ‡¸ Bahamas (Atlantic Ocean)"],
+  ["246", "â€”", "ðŸ‡§ðŸ‡§ Republic of Barbados(Caribbean)"],
+  ["248", "MI", "Pontiac, Troy, NW Detroit suburbs (248 & 947);"],
+  ["249", "ON", "ðŸ‡¨ðŸ‡¦ Sudbury [705 & 249(& 683 â€¢â€Ž2022-06-18â€Ž)]"],
+  ["250", "BC", "ðŸ‡¨ðŸ‡¦ Victoria, Kamloops(250 & 778 & 236 & 672);"],
+  ["251", "AL", "Mobile"],
+  ["252", "NC", "Greenville, Rocky Mount, Cape Hatteras"],
+  [
+    "253",
+    "WA",
+    "Tacoma, southern Seattle area;(Area code 564 has been added as an overlay onarea code 360 in western Washington, effectiveâ€Ž2017-08-28â€Ž;subsequently, area code 564 will also overlay theSeattle metro area codes 206, 253,and 425, as they run out of available numbers.);"
+  ],
+  ["254", "TX", "Waco"],
+  ["256", "AL", "Huntsville (256 & 938);"],
+  ["260", "IN", "Ft. Wayne; (see also 219,574)"],
+  ["262", "WI", "Racine, Waukesha, West Bend;(not Milwaukee)"],
+  [
+    "263",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ MontrÃ©al, ÃŽle-Perrot; 514 & 438(& 263 â€¢â€Ž2022-10-22â€Ž);"
+  ],
+  ["264", "â€”", "ðŸ‡¦ðŸ‡® Anguilla (Caribbean)"],
+  ["267", "PA", "Philadelphia (215 & 267 & 445);"],
+  ["268", "â€”", "ðŸ‡¦ðŸ‡¬ Antigua & Barbuda(Caribbean);"],
+  ["269", "MI", "Kalamazoo, southwestern"],
+  ["270", "KY", "Bowling Green, Hopkinsville; (270 & 364);"],
+  ["272", "PA", "Scranton, Wilkes-Barre (570 & 272);"],
+  [
+    "274",
+    "WI",
+    "Green Bay (920 & 274overlay finally scheduled forâ€Ž2024-03-22â€Ž"
+  ],
+  ["276", "VA", "Bristol, southwestern"],
+  ["278", "â€”", "withdrawn"],
+  ["279", "CA", "Sacramento; (916 & 279 overlay);"],
+  ["281", "TX", "Houston and suburbs; (713 & 281 & 832 & 346);"],
+  [
+    "283",
+    "OH",
+    "reinstated: Cincinnati;in 2000, the PUCO announced the513 & 283 overlay,originally scheduled for 2002. However, the overlay wasdeferred repeatedly, and the 283 prefix was assigned in 513(i.e., numbers of the form513-283-xxxx),which would usually mean that 283 was not reserved for thefuture overlay. However, the PUCO announced that the513 & 283 overlaywill happen â€Ž2023-04-28â€Ž;"
+  ],
+  ["284", "â€”", "ðŸ‡»ðŸ‡¬ British Virgin Islands(Caribbean)"],
+  ["289", "ON", "ðŸ‡¨ðŸ‡¦ Hamilton, Toronto suburbs(905 & 289 & 365 & 742);"],
+  ["301", "MD", "Frederick, suburbs of Washington DC;  (301 & 240);"],
+  ["302", "DE", "entire state ofDelaware"],
+  ["303", "CO", "Denver(303 & 720[& 983:â€Ž2022-06-17â€Ž])"],
+  ["304", "WV", "entire state of West Virginia;(304 & 681);"],
+  ["305", "FL", "Miami, Key West[305 & 786(& 645 â€¢2023-08-04)];"],
+  ["306", "SK", "ðŸ‡¨ðŸ‡¦ entire province of Saskatchewan;(306 & 639 & 474);"],
+  ["307", "WY", "entire state of Wyoming"],
+  ["308", "NE", "North Platte, Grand Island, western"],
+  [
+    "309",
+    "IL",
+    "Bloomington, Peoria, Moline/Quad Cities;(309 & 861overlay effectiveâ€Ž2023-02-24â€Ž);"
+  ],
+  ["310", "CA", "Los Angeles area: Santa Monica, Torrance(310 & 424);"],
+  ["312", "IL", "Chicago/downtown only (312 & 872);(see 773)"],
+  ["313", "MI", "Detroit;(see also 248 & 947,586, 734,810);"],
+  [
+    "314",
+    "MO",
+    "St. Louis;(see also 573,636)(314 & 557overlay, originally planned for 2001, finally scheduled forâ€Ž2022-08-12â€Ž);"
+  ],
+  ["315", "NY", "Syracuse, Utica, north central; (315 & 680);"],
+  ["316", "KS", "Wichita (see also 620)"],
+  ["317", "IN", "Indianapolis; (317 & 463);"],
+  ["318", "LA", "Shreveport, Alexandria, northern"],
+  ["319", "IA", "Cedar Rapids, Waterloo, Burlington"],
+  ["320", "MN", "St. Cloud, central and west central"],
+  [
+    "321",
+    "FL",
+    "Melbourne (321 only); Orlando (407 & 321 & 689)(area code 689 is an overlay on the407 & 321 area â€”but not on the 321â€“only area);"
+  ],
+  [
+    "323",
+    "CA",
+    "Los Angeles/downtown; (The boundary between 213 and 323has been erased, creating the 213 & 323 overlay.);"
+  ],
+  ["325", "TX", "Abilene, San Angelo"],
+  ["326", "OH", "Dayton; (937 & 326 overlay);"],
+  [
+    "327",
+    "AR",
+    "Jonesboro, Pine Bluff, most of the state(870 & 327 onâ€Ž2013-05-18â€Ž â€Ž2024-06-04â€Ž; (see also 479,501)"
+  ],
+  [
+    "329",
+    "NY",
+    "Poughkeepsie, northern suburbs of New York City;(not Westchester Co.);(845 & 329 â€¢Â 2023-03-24);"
+  ],
+  ["330", "OH", "Akron, Canton, Youngstown (330 & 234);"],
+  ["331", "IL", "Hinsdale, some W. suburbs of Chicago (630 & 331);"],
+  ["332", "NY", "New York City (Manhattan only);212 & 646 & 332 &917;"],
+  [
+    "333",
+    "â€”",
+    "unassigned; caller ID showing 333 may beGuadalajara, Mexico (+52 33 3xxxxxxx)or northeastern France (+33 3 xxxxxxxx) or invalid/â€Œnon-dialable Google Voice number;"
+  ],
+  ["334", "AL", "Montgomery, southeastern;(see also 251)"],
+  ["336", "NC", "Greensboro, High Point, Winston-Salem;(336 & 743);"],
+  ["337", "LA", "Lafayette, Lake Charles, southwestern"],
+  ["339", "MA", "Lexington, Boston suburbs (781 & 339);"],
+  ["340", "VI", "ðŸ‡»ðŸ‡® U.S. Virgin Islands(entire territory)"],
+  ["341", "CA", "Oakland; (510 & 341 overlay);"],
+  ["343", "ON", "ðŸ‡¨ðŸ‡¦ Ottawa, eastern[613 & 343 & 753];"],
+  [
+    "345",
+    "â€”",
+    "ðŸ‡°ðŸ‡¾ Cayman Islands (Caribbean);(Note: effective 2016,the Cayman Islands do observeDaylight Saving Time)"
+  ],
+  ["346", "TX", "Houston and suburbs; (713 & 281 & 832 & 346);"],
+  [
+    "347",
+    "NY",
+    "NYC: Bronx, Brooklyn, Queens, Staten Island718 & 347 & 929 &917;"
+  ],
+  [
+    "350",
+    "CA",
+    "Modesto, Stockton; 209 is expecting an overlay in early 2022, details t.b.a.; 350 is an â€œeducated guessâ€ for the new code"
+  ],
+  ["351", "MA", "Lowell, Leominster, northeastern;(978 & 351);"],
+  ["352", "FL", "Gainesville, Ocala"],
+  [
+    "354",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ Laval, Longueuil, suburbs of MontrÃ©al;[450 & 579(& 354 â€¢â€Ž2022-10-22â€Ž)];"
+  ],
+  ["356", "â€”", "withdrawn"],
+  [
+    "360",
+    "WA",
+    "Bellingham, Olympia, Vancouver;western Washington state, excluding Seattle metro area;(Area code 564 has been added as an overlay onarea code 360 in western Washington, effectiveâ€Ž2017-08-28â€Ž;subsequently, area code 564 will also overlay theSeattle metro area codes 206, 253,and 425, as they run out of available numbers.);"
+  ],
+  ["361", "TX", "Corpus Christi"],
+  [
+    "363",
+    "NY",
+    "Long Island (Nassau County);(516 & 363 overlayâ€Ž2023-01-20â€Ž);"
+  ],
+  ["364", "KY", "Bowling Green, Hopkinsville; (270 & 364);"],
+  ["365", "ON", "ðŸ‡¨ðŸ‡¦ Hamilton, Toronto suburbs(905 & 289 & 365 & 742);"],
+  [
+    "367",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ QuÃ©bec, GaspÃ©, southeast;(418 & 581 & 367overlay/recouvrement);"
+  ],
+  [
+    "368",
+    "AB",
+    "ðŸ‡¨ðŸ‡¦ Alberta: entire province; [403 & 587 & 825 & 368] and[780 & 587 & 825 & 368];"
+  ],
+  ["369", "â€”", "withdrawn"],
+  ["380", "OH", "Columbus; (614 & 380);"],
+  [
+    "382",
+    "ON",
+    "ðŸ‡¨ðŸ‡¦ London, Windsor, southern;[ 519 & 226 & 548 (& 382 â€¢â€Ž2023-06-17â€Ž) ];;"
+  ],
+  ["385", "UT", "Salt Lake City, Ogden, Provo (801 & 385);"],
+  ["386", "FL", "Daytona Beach, Lake City;(not Jacksonville)"],
+  ["401", "RI", "entire state of Rhode Island"],
+  ["402", "NE", "Omaha, Lincoln, eastern; (402 & 531);"],
+  [
+    "403",
+    "AB",
+    "ðŸ‡¨ðŸ‡¦ Calgary, southern third of province;[403 & 587 & 825 & 368];(see also 780);"
+  ],
+  ["404", "GA", "Atlanta[404 & 770 & 678 & 470 & 943];"],
+  ["405", "OK", "Oklahoma City, central; (405 & 572);"],
+  ["406", "MT", "entire state of Montana"],
+  ["407", "FL", "Orlando(407 & 321 & 689);(Melbourne is 321 only)"],
+  ["408", "CA", "San JosÃ©, â€œSilicon Valleyâ€; (408 & 669);"],
+  ["409", "TX", "Galveston, Beaumont;(see also 936,979)"],
+  ["410", "MD", "Baltimore, northern and eastern (410 & 443 & 667);"],
+  ["412", "PA", "Pittsburgh (412 & 878);(see also 724)"],
+  ["413", "MA", "Springfield, western"],
+  ["414", "WI", "Milwaukee"],
+  ["415", "CA", "San Francisco, Marin County; (415 & 628);"],
+  ["416", "ON", "ðŸ‡¨ðŸ‡¦ Toronto (416 & 647 & 437);"],
+  ["417", "MO", "Springfield, Joplin, southwestern"],
+  ["418", "QC", "ðŸ‡¨ðŸ‡¦ QuÃ©bec, GaspÃ©, southeast; (418 & 581 & 367);"],
+  ["419", "OH", "Toledo, northwestern (419 & 567);"],
+  ["423", "TN", "Chattanooga, Johnson City,(not Knoxville)"],
+  ["424", "CA", "Los Angeles area: Santa Monica, Torrance(310 & 424);"],
+  [
+    "425",
+    "WA",
+    "Everett, Redmond, northern/â€ŒeasternSeattle area;(Area code 564 has been added as an overlay onarea code 360 in western Washington, effectiveâ€Ž2017-08-28â€Ž;subsequently, area code 564 will alsooverlay the Seattle metro area codes 206,253, and 425,as they run out of available numbers.)"
+  ],
+  [
+    "428",
+    "NB",
+    "ðŸ‡¨ðŸ‡¦ entire province ofNew Brunswick (506 & 428 =â€Ž2020-11-21â€Žâ€Ž2022-04-23â€Žâ€Ž2023-04-29â€Ž)"
+  ],
+  ["430", "TX", "Tyler, Texarkana, northeastern (903 & 430);"],
+  [
+    "431",
+    "MB",
+    "ðŸ‡¨ðŸ‡¦ entire province of Manitoba[ 204 & 431(& 584 â€¢â€Ž2022-10-29â€Ž)];"
+  ],
+  ["432", "TX", "Midland, Odessa, Big Bend"],
+  ["434", "VA", "Charlottesville, Lynchburg, Emporia"],
+  ["435", "UT", "Logan, most of the state;(not SLC/Ogden/Provo)"],
+  ["437", "ON", "ðŸ‡¨ðŸ‡¦ city of Toronto (416 & 647 & 437);"],
+  [
+    "438",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ MontrÃ©al, ÃŽle-Perrot[ 514 & 438(& 263 â€¢â€Ž2022-10-22â€Ž)];(see also/voir aussi450)"
+  ],
+  ["440", "OH", "Lorain, Ashtabula;(not Cleveland)"],
+  ["441", "â€”", "ðŸ‡§ðŸ‡² Bermuda (Atlantic Ocean)"],
+  ["442", "CA", "Escondido, Palm Springs, Death Valley(760 & 442);"],
+  ["443", "MD", "Baltimore, northern and eastern(410 & 443 & 667);"],
+  ["445", "PA", "Philadelphia (215 & 267 & 445);"],
+  ["447", "IL", "Champaign, Springfield; (217 & 447);"],
+  [
+    "448",
+    "FL",
+    "Tallahassee [ 7:00 â€¢ 8:00 ],Pensacola [ 6:00 â€¢ 7:00 ],panhandle;(850 & 448);"
+  ],
+  [
+    "450",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ Laval, Longueuil, suburbs of MontrÃ©al;[ 450 & 579(& 354 â€¢â€Ž2022-10-22â€Ž ) ];"
+  ],
+  [
+    "456",
+    "â€”",
+    "International inbound switched-56K services(withdrawn due to obsolescence)"
+  ],
+  ["458", "OR", "Eugene, most of the state (541 & 458);(not Portland, Salem)"],
+  [
+    "463",
+    "IN",
+    "Indianapolis (317 & 463)(Note:463 spells IND for Indianapolis);"
+  ],
+  [
+    "464",
+    "IL",
+    "La Grange, some southern/â€Œwestern suburbs of Chicago;After multiple postponements, the (708 & 464)overlay finally took effect onâ€Ž2022-01-21â€Ž"
+  ],
+  [
+    "468",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ Hull, Sherbrooke, Trois-RiviÃ¨res, Kuujjuaq;[ 819 & 873(& 468Â â€¢Â â€Ž2022-10-22â€Ž)];"
+  ],
+  ["469", "TX", "Dallas and suburbs (214 & 972 & 469 & 945);"],
+  ["470", "GA", "Atlanta and suburbs[404 & 770 & 678 & 470 & 943];"],
+  [
+    "472",
+    "NC",
+    "Wilmington, Fayetteville, southeastern;(472 will overlay 910 onâ€Ž2022-08-02â€Ž);"
+  ],
+  ["473", "â€”", "ðŸ‡¬ðŸ‡© Grenada& Carriacou (Caribbean);"],
+  ["474", "SK", "ðŸ‡¨ðŸ‡¦ Saskatchewan: entire province;(306 & 639 & 474);"],
+  ["475", "CT", "New Haven, Bridgeport, NYC suburbs(203 & 475);"],
+  ["478", "GA", "Macon, central"],
+  ["479", "AR", "Ft. Smith, Fayetteville, northwestern"],
+  [
+    "480",
+    "AZ",
+    "Scottsdale, east Phoenix area;effective â€Ž2023-09-12â€Ž,area codes 602, 480, and623 will merge into the602 & 480 & 623overlay, covering the Phoenix metro area;"
+  ],
+  [
+    "484",
+    "PA",
+    "Allentown, outer Philadelphia suburbs;(610 & 484)(additional 835 overlay to be added onâ€Ž2022-09-02â€Ž);"
+  ],
+  [
+    "500",
+    "â€”",
+    "Non-geographic Services (premium charges may apply;some numbers non-dialable)"
+  ],
+  ["501", "AR", "Little Rock, central;(see also 479,870)"],
+  ["502", "KY", "Louisville, Frankfort;(see also 270)"],
+  ["503", "OR", "Portland, Salem, Astoria, Tillamook(503 & 971);"],
+  ["504", "LA", "New Orleans; (see also 985)"],
+  ["505", "NM", "Albuquerque, Santa Fe, northwest;(see also 575)"],
+  [
+    "506",
+    "NB",
+    "ðŸ‡¨ðŸ‡¦ entire province ofNew Brunswick;(506 & 428 =â€Ž2020-11-21â€Žâ€Ž2022-04-23â€Žâ€Ž2023-04-29â€Ž);"
+  ],
+  ["507", "MN", "Rochester, southern"],
+  ["508", "MA", "Worcester, Cape Cod, southeastern (508 & 774);"],
+  ["509", "WA", "Spokane, eastern"],
+  ["510", "CA", "Oakland, east shore of San Francisco Bay;(510 & 341);"],
+  ["512", "TX", "Austin (see also 361); (512 & 737);"],
+  ["513", "OH", "Cincinnati;(513 & 283 â€¢â€Ž2023-04-28â€Ž);"],
+  [
+    "514",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ MontrÃ©al, ÃŽle-Perrot[ 514 & 438(& 263 â€¢â€Ž2022-10-22â€Ž)];(see also/voir aussi450)"
+  ],
+  ["515", "IA", "Des Moines, Ames, Ft. Dodge;(see also 641)"],
+  [
+    "516",
+    "NY",
+    "Nassau County (western Long Island);(see also 631) (516 & 363 overlay onâ€Ž2023-01-20â€Ž);"
+  ],
+  ["517", "MI", "Lansing; (see also 989)"],
+  ["518", "NY", "Albany, northeastern; (518 & 838);"],
+  [
+    "519",
+    "ON",
+    "ðŸ‡¨ðŸ‡¦ London, Windsor, southern;[ 519 & 226 & 548(& 382 â€¢â€Ž2023-06-17â€Ž)];;"
+  ],
+  ["520", "AZ", "Tucson, southeastern;(see also928 and480/602/623)"],
+  ["521", "â€”", "Expansion of 500 Non-geographic Services"],
+  ["522", "â€”", "Expansion of 500 Non-geographic Services"],
+  ["523", "â€”", "Expansion of 500 Non-geographic Services"],
+  ["524", "â€”", "Expansion of 500 Non-geographic Services"],
+  ["525", "â€”", "Expansion of 500 Non-geographic Services"],
+  ["526", "â€”", "Expansion of 500 Non-geographic Services"],
+  ["527", "â€”", "Expansion of 500 Non-geographic Services"],
+  [
+    "528",
+    "â€”",
+    "Expansion of500 Non-geographic Services,effective â€Ž2022-03-02â€Ž"
+  ],
+  [
+    "529",
+    "â€”",
+    "Future expansion of500 Non-geographic Services, circa 2023-Q1?"
+  ],
+  ["530", "CA", "Redding, Lake Tahoe, northeastern"],
+  ["531", "NE", "Omaha, Lincoln, eastern (402 & 531);"],
+  ["533", "â€”", "Expansion of 500 Non-geographic Services"],
+  ["534", "WI", "Eau Claire, northern, northwestern (715 & 534);"],
+  ["539", "OK", "Tulsa, northeastern (918 & 539);"],
+  [
+    "540",
+    "VA",
+    "Roanoke, Harrisonburg, outer Washington suburbs;(see also 276);(540 & 826 â€¢â€Ž2022-06-14â€Ž);"
+  ],
+  ["541", "OR", "Eugene, most of the state (541 & 458);(not Portland, Salem)"],
+  ["544", "â€”", "Expansion of 500 Non-geographic Services"],
+  [
+    "548",
+    "ON",
+    "ðŸ‡¨ðŸ‡¦ London, Windsor, southern;[ 519 & 226 & 548(& 382 â€¢â€Ž2023-06-17â€Ž)];;"
+  ],
+  ["551", "NJ", "Hackensack, Jersey City (201 & 551);"],
+  [
+    "557",
+    "MO",
+    "St. Louis;(see also 573,636)(314 & 557overlay, originally planned for 2001, finally scheduled forâ€Ž2022-08-12â€Ž);"
+  ],
+  ["559", "CA", "Fresno"],
+  [
+    "561",
+    "FL",
+    "Palm Beach County;(see also 772);(561 & 728 â€¢â€Ž2023-03-10â€Ž);"
+  ],
+  ["562", "CA", "Los Angeles area: Long Beach"],
+  ["563", "IA", "Davenport/Quad Cities, Dubuque, Decorah"],
+  [
+    "564",
+    "WA",
+    "Bellingham, Olympia, Vancouver;western Washington state, excluding Seattle metro area;(Area code 564 has been added as an overlay onarea code 360 in western Washington, effectiveâ€Ž2017-08-28â€Ž;subsequently, area code 564 will alsooverlay the Seattle metro area codes 206,253, and 425,as they run out of available numbers.);"
+  ],
+  ["566", "â€”", "Expansion of 500 Non-geographic Services"],
+  ["567", "OH", "Toledo, northwest; (419 & 567);"],
+  ["570", "PA", "Scranton, Wilkes-Barre (570 & 272);"],
+  ["571", "VA", "Arlington, suburbs of Washington D.C.(703 & 571);"],
+  ["572", "OK", "Oklahoma City, central; (405 & 572);"],
+  [
+    "573",
+    "MO",
+    "Columbia, Jefferson City, central and eastern;(not St. Louis,St. Charles);(573 & 235in 2024 or 2025);"
+  ],
+  ["574", "IN", "South Bend; (see also 219,260)"],
+  [
+    "575",
+    "NM",
+    "Las Cruces, Taos, most of the state;(not Albuquerque, Santa Fe)"
+  ],
+  ["577", "â€”", "Expansion of 500 Non-geographic Services"],
+  [
+    "579",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ Laval, Longueuil, suburbs of MontrÃ©al[ 450 & 579(& 354 â€¢â€Ž2022-10-22â€Ž)]"
+  ],
+  ["580", "OK", "Lawton, Enid, Ada;(not OKC,Tulsa)"],
+  ["581", "QC", "ðŸ‡¨ðŸ‡¦ QuÃ©bec, GaspÃ©, southeast; (418 & 581 & 367);"],
+  ["582", "PA", "Erie, Altoona; (814 & 582);"],
+  [
+    "584",
+    "MB",
+    "ðŸ‡¨ðŸ‡¦ entire province ofManitoba[ 204 & 431 (& 584 â€¢â€Ž2022-10-29â€Ž) ];"
+  ],
+  ["585", "NY", "Rochester"],
+  ["586", "MI", "Warren, Macomb County"],
+  [
+    "587",
+    "AB",
+    "ðŸ‡¨ðŸ‡¦ entire province of Alberta [403 & 587 & 825 & 368] and [780 & 587 & 825 & 368];"
+  ],
+  ["588", "â€”", "Expansion of 500 Non-geographic Services"],
+  [
+    "600",
+    "â€”",
+    "ðŸ‡¨ðŸ‡¦ Canada:Non-geographic services(e.g., caller-pays cellular)"
+  ],
+  ["601", "MS", "Jackson, Hattiesburg, central (601 & 769);"],
+  [
+    "602",
+    "AZ",
+    "Phoenix; (not Scottsdale,Glendale) effective â€Ž2023-09-12â€Ž,area codes 602, 480, and623 will merge into the602 & 480 & 623overlay, covering the Phoenix metro area;"
+  ],
+  ["603", "NH", "entire state ofNew Hampshire"],
+  ["604", "BC", "ðŸ‡¨ðŸ‡¦ Vancouver(604 & 778& 236 & 672); (see also 250)"],
+  ["605", "SD", "entire state of South Dakota"],
+  ["606", "KY", "Ashland, rural E. KY; (not Lexington, Covington)"],
+  ["607", "NY", "Binghamton, south central"],
+  ["608", "WI", "Madison, southwestern"],
+  ["609", "NJ", "Atlantic City, Trenton;(not Camden, Vineland)(609 & 640);"],
+  [
+    "610",
+    "PA",
+    "Allentown, outer Philadelphia suburbs;(610 & 484)(additional 835 overlay to be added onâ€Ž2022-09-02â€Ž);"
+  ],
+  ["612", "MN", "Minneapolis;(see also 651,763,952)"],
+  ["613", "ON", "ðŸ‡¨ðŸ‡¦ Ottawa, eastern[613 & 343 & 753];"],
+  ["614", "OH", "Columbus; (614 & 380);"],
+  ["615", "TN", "Nashville (notClarksville);(615 & 629);"],
+  ["616", "MI", "Grand Rapids; (see also 231,269)"],
+  ["617", "MA", "Boston; (617 & 857);"],
+  ["618", "IL", "East St. Louis, southern;(618 & 730t.b.a./2025? );"],
+  [
+    "619",
+    "CA",
+    "San Diego, Coronado, La Jolla;(not Escondido) (On â€Ž2018-06-19â€Ž,the boundary between 619 and 858 was erased, creating the619 & 858 overlay.);"
+  ],
+  ["620", "KS", "southern Kansas;(not metro Wichita)"],
+  [
+    "622",
+    "â€”",
+    "ðŸ‡¨ðŸ‡¦ Canada:expansion of 600 Non-geographic services(e.g., caller-pays cellular)"
+  ],
+  [
+    "623",
+    "AZ",
+    "Glendale, west Phoenix area;effective â€Ž2023-09-12â€Ž,area codes 602,480, and 623 will merge into the602 & 480 & 623overlay, covering the Phoenix metro area;"
+  ],
+  ["626", "CA", "Los Angeles area: Pasadena, San Gabriel Valley"],
+  ["627", "â€”", "withdrawn"],
+  ["628", "CA", "San Francisco, Marin County; (415 & 628);"],
+  ["629", "TN", "Nashville, central and north central;(615 & 629);"],
+  ["630", "IL", "Hinsdale, some western suburbs of Chicago (630 & 331);"],
+  [
+    "631",
+    "NY",
+    "Suffolk County (eastern Long Island);(see also 516)(631 & 934);"
+  ],
+  [
+    "633",
+    "â€”",
+    "ðŸ‡¨ðŸ‡¦ Canada:future expansion of 600 Non-geographic services(e.g., caller-pays cellular)"
+  ],
+  ["636", "MO", "St. Charles; (see also314, 573)"],
+  ["639", "SK", "ðŸ‡¨ðŸ‡¦ Saskatchewan: entire province;(306 & 639 & 474);"],
+  ["640", "NJ", "Atlantic City, Trenton;(not Camden, Vineland)(609 & 640);"],
+  ["641", "IA", "Mason City, Marshalltown, J-shapedportion of central Iowa"],
+  ["645", "FL", "Miami, Key West[305 & 786 (& 645 â€¢Â 2023-08-04) ];"],
+  ["646", "NY", "New York City: Manhattan; (212 & 646 & 332 & 917);"],
+  ["647", "ON", "ðŸ‡¨ðŸ‡¦ Toronto (416 & 647 & 437);"],
+  ["649", "â€”", "ðŸ‡¹ðŸ‡¨ Turks & Caicos Islands(Caribbean);"],
+  ["650", "CA", "San Mateo, peninsula, San Francisco Airport[âœˆï¸SFO]"],
+  ["651", "MN", "St. Paul, eastern Twin Cities area"],
+  ["656", "FL", "Tampa;(813 & 656overlayâ€Ž2021-11-16â€Žâ€Ž2022-02-22â€Ž);"],
+  ["657", "CA", "Anaheim, northern Orange County (714 & 657);"],
+  ["658", "â€”", "ðŸ‡¯ðŸ‡² Jamaica (Caribbean);(876 & 658);"],
+  ["659", "AL", "Birmingham, Tuscaloosa; (205 & 659);"],
+  ["660", "MO", "Sedalia, north central"],
+  ["661", "CA", "Bakersfield, northern Los Angeles County"],
+  ["662", "MS", "northern half, Greenville, Tupelo"],
+  ["664", "â€”", "ðŸ‡²ðŸ‡¸ Montserrat (Caribbean)"],
+  ["667", "MD", "Baltimore, northern and eastern (410 & 443 & 667);"],
+  ["669", "CA", "San JosÃ©, â€œSilicon Valleyâ€; (408 & 669);"],
+  ["670", "MP", "ðŸ‡²ðŸ‡µ CNMI /Mariana Islands /U.S. Pacific; (Saipan)"],
+  ["671", "GU", "ðŸ‡¬ðŸ‡º Guam/U.S. Pacific;(HagÃ¥tÃ±a/Agana)"],
+  [
+    "672",
+    "BC",
+    "ðŸ‡¨ðŸ‡¦ entire province ofBritish Columbia;(Area code 604 servesthe Vancouver metro area.Area code 250 servesthe rest of the province.Area codes 778, 236, and 672 overlaythe entire province.)"
+  ],
+  ["678", "GA", "Atlanta and suburbs[404 & 770 & 678 & 470 & 943];"],
+  ["679", "â€”", "withdrawn"],
+  ["680", "NY", "Syracuse, Utica, north central; (315 & 680);"],
+  ["681", "WV", "entire state of West Virginia(304 & 681);"],
+  ["682", "TX", "Fort Worth (817 & 682);"],
+  ["683", "ON", "ðŸ‡¨ðŸ‡¦ Sudbury[ 705 & 249(& 683 â€¢â€Ž2022-06-18â€Ž)]"],
+  ["684", "AS", "ðŸ‡¦ðŸ‡¸ American Samoa (entire territory)"],
+  [
+    "689",
+    "FL",
+    "Orlando(407 & 321 & 689);(Melbourne is 321 only)(area code 689 was added as an overlay on the407 & 321area â€” but not on the321â€“only area â€”effective â€Ž2019-06-04â€Ž)"
+  ],
+  [
+    "700",
+    "â€”",
+    "Special purposes: dependent on long-distance carrier used (premium charges may apply)"
+  ],
+  ["701", "ND", "entire state ofNorth Dakota"],
+  [
+    "702",
+    "NV",
+    "Las Vegas, almost all of Clark County; (702 & 725); (rest of state is775);"
+  ],
+  ["703", "VA", "Arlington, suburbs of Washington D.C.(703 & 571);"],
+  ["704", "NC", "Charlotte (704 & 980);"],
+  [
+    "705",
+    "ON",
+    "ðŸ‡¨ðŸ‡¦ Sudbury, north central[ 705 & 249(& 683 â€¢â€Ž2022-06-18â€Ž)]"
+  ],
+  ["706", "GA", "Athens, Columbus, Augusta, Rome(706 & 762);"],
+  [
+    "707",
+    "CA",
+    "north coast and wine country: Santa Rosa, Napa, Vallejo;(707 will be getting an overlaycirca 2023; details t.b.a.)"
+  ],
+  [
+    "708",
+    "IL",
+    "La Grange, some southern/â€Œwestern suburbs of Chicago;(The 708 & 464 overlaywas postponed multiple times, but finally took effect onâ€Ž2022-01-21â€Ž.)"
+  ],
+  [
+    "709",
+    "NL",
+    "ðŸ‡¨ðŸ‡¦ entire province ofNewfoundland & Labrador(Terre-Neuve-et-Labrador or Akamassiss);(709 & 879,wasâ€Ž2018-11-24â€Ž,â€Ž2022-05-20â€Ž,â€Ž2023-05-27â€Ž,postponed indefinitely[2026?] )"
+  ],
+  ["710", "US", "ðŸ‡ºðŸ‡¸ U.S. Federal Government,authorized users only"],
+  ["712", "IA", "Sioux City, Council Bluffs, western"],
+  ["713", "TX", "Houston and suburbs;(713 & 281 & 832 & 346);"],
+  ["714", "CA", "Anaheim, northern Orange Co. (714 & 657);"],
+  ["715", "WI", "Eau Claire, northern/â€Œnorthwestern(715 & 534)"],
+  ["716", "NY", "Buffalo, western tip;(see also 585)"],
+  ["717", "PA", "Harrisburg; (717 & 223);"],
+  [
+    "718",
+    "NY",
+    "NYC: Bronx, Brooklyn, Queens, Staten Island (718 & 347 & 929 & 917);"
+  ],
+  ["719", "CO", "Colorado Springs, southeastern"],
+  [
+    "720",
+    "CO",
+    "Denver (303 & 720) (983 overlay will be added onâ€Ž2022-06-17â€Ž)"
+  ],
+  ["721", "â€”", "ðŸ‡¸ðŸ‡½ Sint Maarten(Dutch Caribbean);"],
+  ["724", "PA", "New Castle, western (724 & 878);(not Pittsburgh)"],
+  ["725", "NV", "Las Vegas (702 & 725);"],
+  [
+    "726",
+    "TX",
+    "San Antonio;(210 & 726)(Note:726 spells SAN for San Antonio);"
+  ],
+  ["727", "FL", "St. Petersburg;(see also 813)"],
+  ["728", "FL", "Palm Beach County;(561 & 728 â€¢â€Ž2023-03-10â€Ž);"],
+  ["730", "IL", "East St. Louis, southern;(618 & 730t.b.a./2025? );"],
+  ["731", "TN", "Jackson, western TN;(not Memphis)"],
+  ["732", "NJ", "New Brunswick, northern Jersey Shore region(732 & 848);"],
+  [
+    "734",
+    "MI",
+    "Ann Arbor, Monroe, S. Detroit suburbs & Metro Airport[âœˆï¸DTW];"
+  ],
+  ["737", "TX", "Austin (512 & 737);"],
+  ["740", "OH", "Marion, Zanesville, southeastern;      (740 & 220);"],
+  ["742", "ON", "ðŸ‡¨ðŸ‡¦ Hamilton, Toronto suburbs(905 & 289 & 365 & 742);"],
+  ["743", "NC", "Greensboro, High Point, Winston-Salem;  (336 & 743);"],
+  ["747", "CA", "Los Angeles area: San Fernando (818 & 747);"],
+  ["752", "â€”", "withdrawn"],
+  ["753", "ON", "ðŸ‡¨ðŸ‡¦ Ottawa;[613 & 343 & 753];"],
+  ["754", "FL", "Ft. Lauderdale, Broward County(954 & 754);"],
+  ["757", "VA", "Norfolk, Portsmouth, Virginia Beach;(757 & 948);"],
+  ["758", "â€”", "ðŸ‡±ðŸ‡¨ St. Lucia (Caribbean)"],
+  ["760", "CA", "Escondido, Palm Springs, Death Valley(760 & 442);"],
+  ["762", "GA", "Athens, Columbus, Augusta, Rome (706 & 762);"],
+  ["763", "MN", "northwest suburbs of Minneapolis; (see also 952)"],
+  ["764", "â€”", "withdrawn"],
+  ["765", "IN", "Lafayette, Muncie"],
+  [
+    "767",
+    "â€”",
+    "ðŸ‡©ðŸ‡² Dominica (Caribbean) (Note: ðŸ‡©ðŸ‡² â€œDominicaâ€ andðŸ‡©ðŸ‡´ â€œDominican Republicâ€are two different countries in the Caribbean.)"
+  ],
+  ["769", "MS", "Jackson, Hattiesburg, central (601 & 769);"],
+  ["770", "GA", "Atlanta suburbs[404 & 770 & 678 & 470 & 943];"],
+  ["771", "DC", "Washington, D.C.; (202 & 771 overlay);"],
+  ["772", "FL", "Ft. Pierce, central east coast of Florida"],
+  ["773", "IL", "Chicago/uptown (773 & 872);(see also 312)"],
+  ["774", "MA", "Worcester, Cape Cod, southeastern(508 & 774);"],
+  ["775", "NV", "Reno, most of Nevada;(not Las Vegas/Clark Co.)"],
+  [
+    "778",
+    "BC",
+    "ðŸ‡¨ðŸ‡¦ entire province of British Columbia(604 & 778 & 236 & 672)and(250 & 778 & 236 & 672);"
+  ],
+  ["779", "IL", "Rockford, Joliet, northern (815 & 779);"],
+  [
+    "780",
+    "AB",
+    "ðŸ‡¨ðŸ‡¦ Edmonton, northern;[780 & 587 & 825 & 368] (see also 403);"
+  ],
+  ["781", "MA", "Lexington, suburbs of Boston (781 & 339);"],
+  [
+    "782",
+    "NSPEI",
+    "ðŸ‡¨ðŸ‡¦ Nova Scotia & Prince Edward Island(entirety of both provinces);(902 & 782)"
+  ],
+  ["784", "â€”", "ðŸ‡»ðŸ‡¨ St. Vincent &the Grenadines (Caribbean);"],
+  ["785", "KS", "Topeka, north central, northwestern"],
+  ["786", "FL", "Miami, Key West[305 & 786(& 645 â€¢Â 2023-08-04)];"],
+  ["787", "PR", "ðŸ‡µðŸ‡· Puerto Rico (entire territory);(787 & 939);"],
+  [
+    "789",
+    "â€”",
+    "state --> unassigned;(unofficial signs pointed to 789as a possible overlay for 513 in 2023, but the PUCOhas announced the 513 & 283overlay, so 789 is available elsewhere);"
+  ],
+  ["800", "â€”", "Toll-free services"],
+  ["801", "UT", "Salt Lake City, Provo, Ogden (801 & 385);(see also 435)"],
+  ["802", "VT", "entire state ofVermont"],
+  ["803", "SC", "Columbia, central; (803 & 839);"],
+  ["804", "VA", "Richmond, Petersburg;(see also 434)"],
+  ["805", "CA", "San Luis Obispo, Oxnard;(805 & 820)(see also 661);"],
+  ["806", "TX", "Amarillo, Lubbock, panhandle"],
+  ["807", "ON", "ðŸ‡¨ðŸ‡¦ Thunder Bay, northwestern"],
+  ["808", "HI", "entire state of Hawaii"],
+  [
+    "809",
+    "â€”",
+    "ðŸ‡©ðŸ‡´ Dominican Republic (Caribbean)(809 & 829 & 849);(for other former 809, seeCaribbean page ormap)"
+  ],
+  ["810", "MI", "Flint, Port Huron, NE Detroit suburbs; (see also 586)"],
+  ["812", "IN", "Evansville, southern; (812 & 930);"],
+  ["813", "FL", "Tampa; (813 & 656 overlay);"],
+  ["814", "PA", "Altoona, Erie; (814 & 582);"],
+  ["815", "IL", "Rockford, Joliet, northern (815 & 779);"],
+  [
+    "816",
+    "MO",
+    "Kansas City, St. Joseph;(816 & 975 overlay â€” originally planned for 2001 â€”finally scheduled forâ€Ž2023-02-10â€Ž);"
+  ],
+  ["817", "TX", "Ft. Worth (817 & 682);"],
+  ["818", "CA", "Los Angeles area: San Fernando (818 & 747);"],
+  [
+    "819",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ Sherbrooke, Hull, Trois-RiviÃ¨res, Kuujjuaq;central, western, and northern;[ 819 & 873(& 468 â€¢â€Ž2022-10-22â€Ž)];"
+  ],
+  ["820", "CA", "San Luis Obispo, Oxnard; (805 & 820)(see also 661);"],
+  ["822", "â€”", "future toll-free services"],
+  [
+    "825",
+    "AB",
+    "ðŸ‡¨ðŸ‡¦ Alberta,Canada (entire province);[403 & 587 & 825 & 368]and[780 & 587 & 825 & 368];"
+  ],
+  [
+    "826",
+    "VA",
+    "Roanoke, Harrisonburg, outer Washington suburbs;(see also 276)(540 & 826 â€¢â€Ž2022-06-14â€Ž);"
+  ],
+  ["828", "NC", "Asheville, western tip"],
+  ["829", "â€”", "ðŸ‡©ðŸ‡´ Dominican Republic(809 & 829 & 849);"],
+  ["830", "TX", "Del Rio, New Braunfels;(surrounds San Antonio = 210)"],
+  ["831", "CA", "Monterey, Santa Cruz"],
+  ["832", "TX", "Houston and suburbs; (713 & 281 & 832 & 346);"],
+  ["833", "â€”", "Toll-free services"],
+  [
+    "835",
+    "PA",
+    "Allentown, outer Philadelphia suburbs;[ 610 & 484(& 835 â€¢â€Ž2022-09-02â€Ž)];"
+  ],
+  ["838", "NY", "Albany, northeastern; (518 & 838);"],
+  ["839", "SC", "Columbia, central; (803 & 839);"],
+  ["840", "CA", "San Bernardino, Ontario;(909 & 840) (not Riverside);"],
+  ["843", "SC", "Charleston, coastal; (843 & 854);"],
+  ["844", "â€”", "Toll-free services"],
+  [
+    "845",
+    "NY",
+    "Poughkeepsie, N. suburbs of NYC;(not Westchester Co.);(845 & 329 â€¢Â â€Ž2023-03-24â€Ž ?);"
+  ],
+  ["847", "IL", "Skokie, northern suburbs of Chicago  (847 & 224);"],
+  ["848", "NJ", "New Brunswick, northern Jersey Shore region  (732 & 848);"],
+  ["849", "â€”", "ðŸ‡©ðŸ‡´ Dominican Republic  (809 & 829 & 849);"],
+  [
+    "850",
+    "FL",
+    "Tallahassee [ 7:00 â€¢ 8:00 ],Pensacola [ 6:00 â€¢ 7:00 ],panhandle;(850 & 448);"
+  ],
+  ["854", "SC", "Charleston, coastal; (843 & 854);"],
+  ["855", "â€”", "Toll-free services"],
+  ["856", "NJ", "Camden, Vineland, southwestern"],
+  ["857", "MA", "Boston (617 & 857);"],
+  [
+    "858",
+    "CA",
+    "(most of) San Diego, La Jolla,near north suburbs of San Diego;(On â€Ž2018-06-19â€Ž,the boundary between 619 and 858 was erased,creating the 619 & 858overlay.);"
+  ],
+  ["859", "KY", "Lexington, Covington"],
+  ["860", "CT", "Hartford, northern and eastern(860 & 959);"],
+  [
+    "861",
+    "IL",
+    "Bloomington, Peoria, Moline/Quad Cities;(309 & 861overlay effectiveâ€Ž2023-02-24â€Ž);"
+  ],
+  ["862", "NJ", "Newark, Paterson  (973 & 862);"],
+  ["863", "FL", "Lakeland, Okeechobee"],
+  ["864", "SC", "Greenville, Spartanburg, northwestern"],
+  ["865", "TN", "Knoxville; (see also 423)"],
+  ["866", "â€”", "Toll-free services"],
+  [
+    "867",
+    "â€”",
+    "ðŸ‡¨ðŸ‡¦Yukon [ 5:00 ],Northwest Territories[ 5:00 â€¢ 6:00 ],Nunavut[ 5:00 â€¢Â 6:00 , 6:00 â€¢ 7:00 , 7:00 , 7:00 â€¢ 8:00 ][time zone details;note that beginning in 2020, Yukon is onPacific Daylight Time (equivalent toMountain Standard Time) year-round]"
+  ],
+  ["868", "â€”", "ðŸ‡¹ðŸ‡¹ Trinidad & Tobago (Caribbean);"],
+  ["869", "â€”", "ðŸ‡°ðŸ‡³ St. Kitts & Nevis(Caribbean);"],
+  [
+    "870",
+    "AR",
+    "Jonesboro, Pine Bluff, most of the state;(870 & 327overlay onâ€Ž2013-05-18â€Žâ€Ž2024-06-04â€Ž); (see also 479,501);"
+  ],
+  ["872", "IL", "Chicago, entire city(312 & 872and 773 & 872);"],
+  [
+    "873",
+    "QC",
+    "ðŸ‡¨ðŸ‡¦ Sherbrooke, Hull, Trois-RiviÃ¨res, Kuujjuaq;central, western, and northern;[ 819 & 873(& 468 â€¢â€Ž2022-10-22â€Ž)];"
+  ],
+  ["876", "â€”", "ðŸ‡¯ðŸ‡² Jamaica (Caribbean);(876 & 658);"],
+  ["877", "â€”", "Toll-free services"],
+  ["878", "PA", "Pittsburgh, New Castle(412 & 878 and724 & 878);"],
+  [
+    "879",
+    "NL",
+    "ðŸ‡¨ðŸ‡¦ entire province ofNewfoundland & Labrador;(709 & 879,wasâ€Ž2018-11-24â€Ž,â€Ž2022-05-20â€Ž,â€Ž2023-05-27â€Ž,postponed indefinitely[circa 2026?] )"
+  ],
+  ["880", "â€”", "withdrawn"],
+  ["881", "â€”", "withdrawn"],
+  ["882", "â€”", "Paid international calls to +1 877"],
+  ["883", "PI", "Paid international calls to +1 866"],
+  ["884", "PI", "Paid international calls to +1 855"],
+  ["885", "PI", "Paid international calls to +1 844"],
+  ["886", "PI", "Paid international calls to +1 833"],
+  ["887", "PI", "Paid international calls to +1 822"],
+  ["888", "â€”", "Toll-free services"],
+  ["900", "â€”", "ðŸ’° Premium pay-per-call services"],
+  ["901", "TN", "Memphis; (see also 731)"],
+  [
+    "902",
+    "NSPEI",
+    "ðŸ‡¨ðŸ‡¦ Nova Scotia, Prince Edward Island: entirety of both provinces;(902 & 782);"
+  ],
+  ["903", "TX", "Tyler, Texarkana, northeastern(903 & 430);"],
+  ["904", "FL", "Jacksonville (see also 386)"],
+  ["905", "ON", "ðŸ‡¨ðŸ‡¦ Hamilton, Toronto suburbs(905 & 289 & 365 & 742);"],
+  ["906", "MI", "Sault Ste. Marie, upper peninsula"],
+  ["907", "AK", "entire state ofAlaska(except the tiny town ofHyder)"],
+  ["908", "NJ", "Elizabeth"],
+  ["909", "CA", "San Bernardino, Ontario;(909 & 840) (notRiverside);;"],
+  [
+    "910",
+    "NC",
+    "Wilmington, Fayetteville, southeastern;(472 will overlay 910 onâ€Ž2022-08-02â€Ž);"
+  ],
+  ["912", "GA", "Savannah, southeastern;(not Albany,Macon)"],
+  ["913", "KS", "Kansas City, Leavenworth"],
+  ["914", "NY", "White Plains, Westchester County;(see also 845)"],
+  ["915", "TX", "El Paso, western tip; (not Abilene,Midland/Odessa)"],
+  ["916", "CA", "Sacramento; (916 & 279 overlay);"],
+  ["917", "NY", "New York City: overlays all 5 boroughs;(see 212,718)"],
+  ["918", "OK", "Tulsa, northeastern (918 & 539);"],
+  ["919", "NC", "Raleigh (919 & 984);"],
+  [
+    "920",
+    "WI",
+    "Green Bay, northeastern (920 & 274overlay finally scheduled forâ€Ž2024-03-22â€Ž!)"
+  ],
+  ["925", "CA", "Concord, Walnut Creek, Livermore, inland East Bay"],
+  [
+    "928",
+    "AZ",
+    "Flagstaff, Yuma, most of the state;(see 520,480/602/623)  [Note: the Navajo Nation doesobserve DST.]"
+  ],
+  [
+    "929",
+    "NY",
+    "NYC: Bronx, Brooklyn, Queens, and Staten Island (718 & 347 & 929 &917);"
+  ],
+  ["930", "IN", "Evansville, southern Indiana (812 & 930);"],
+  ["931", "TN", "Clarksville, central;(not Nashville)"],
+  ["934", "NY", "Suffolk County (eastern Long Island);(631 & 934);"],
+  ["935", "â€”", "withdrawn"],
+  ["936", "TX", "Huntsville, Nacogdoches"],
+  ["937", "OH", "Dayton; (937 & 326);"],
+  ["938", "AL", "Huntsville, northern (256 & 938);"],
+  ["939", "PR", "ðŸ‡µðŸ‡· Puerto Rico(entire territory) (787 & 939);"],
+  ["940", "TX", "Wichita Falls, Denton"],
+  ["941", "FL", "Sarasota; (see also 239,863)"],
+  ["943", "GA", "Atlanta and suburbs;[404 & 770 & 678 & 470 & 943];"],
+  ["945", "TX", "Dallas and suburbs;(214 & 972 & 469 & 945);"],
+  ["947", "MI", "Pontiac, Troy, NW Detroit suburbs(248 & 947);"],
+  ["948", "VA", "Norfolk, Portsmouth, Virginia Beach;(757 & 948);"],
+  ["949", "CA", "Irvine, Newport Beach, southern Orange County"],
+  ["951", "CA", "Riverside; (see also 909)"],
+  ["952", "MN", "Bloomington, SW suburbs of Minneapolis;(see also 763)"],
+  ["954", "FL", "Ft. Lauderdale, Broward County(954 & 754);"],
+  ["956", "TX", "Brownsville, Laredo, Rio Grande Valley"],
+  ["959", "CT", "Hartford, northern and eastern(860 & 959);"],
+  ["970", "CO", "Grand Junction, northern and western"],
+  ["971", "OR", "Portland, Salem, Tillamook, Astoria(503 & 971);"],
+  ["972", "TX", "Dallas and suburbs(214 & 972 & 469 & 945);"],
+  ["973", "NJ", "Newark, Paterson(973 & 862);"],
+  [
+    "975",
+    "MO",
+    "Kansas City, St. Joseph;(816 & 975 overlay â€” originally planned for 2001 â€”finally scheduled forâ€Ž2023-02-10â€Ž);"
+  ],
+  ["978", "MA", "Lowell, Leominster, northeastern(978 & 351);"],
+  ["979", "TX", "Bryan/College Station, Wharton"],
+  ["980", "NC", "Charlotte (704 & 980);"],
+  ["983", "CO", "Denver;[ 303 & 720(& 983 â€¢â€Ž2022-06-17â€Ž)];"],
+  ["984", "NC", "Raleigh (919 & 984);"],
+  ["985", "LA", "Hammond, Houma; (see also 504,225)"],
+  ["986", "ID", "entire state of Idaho;(208 & 986);"],
+  ["989", "MI", "Saginaw"]
+]

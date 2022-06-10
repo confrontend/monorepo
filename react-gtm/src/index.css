@@ -1,0 +1,38 @@
+/* Typography imported from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+/* Generic styles */
+html {
+  scroll-behavior: smooth;
+}
