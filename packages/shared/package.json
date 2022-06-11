@@ -1,0 +1,29 @@
+{
+  "name": "shared",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Confrontend <hamed.fatehi.66@gmail.com>",
+  "homepage": "https://github.com/Confrontend/monorepo/tree/main/packages/shared#readme",
+  "license": "ISC",
+  "main": "lib/shared.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Confrontend/monorepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Confrontend/monorepo/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
