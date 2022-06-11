@@ -17,7 +17,6 @@ export default function Business(): JSX.Element {
     fetchTopNews(cacheUrl, true, "", Category.business)
       .then((data) => {
         const { articles } = data;
-        console.log(articles);
 
         setTeaser(mapTeaserObject(articles));
       })
