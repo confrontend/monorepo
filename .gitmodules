@@ -1,0 +1,3 @@
+[submodule "packages/hamed-ui-compoennts"]
+	path = packages/hamed-ui-compoennts
+	url = git@github.com:Confrontend/hamed-ui-compoennts.git
