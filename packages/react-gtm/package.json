@@ -1,6 +1,6 @@
 {
-  "name": "@gtm/react-gtm",
-  "version": "0.1.0",
+  "name": "@hamed/react-gtm",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "typescript": "4.7.3",
