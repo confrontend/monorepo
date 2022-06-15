@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import { Navigation } from "./hamed-ui-compoennts/src/components";
 import Layout from "./layout/layout";
 import Blog from "./pages/blog";
 import Resume from "./pages/resume";

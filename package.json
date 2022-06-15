@@ -9,9 +9,9 @@
   ],
   "scripts": {
     "start:all": "lerna run --parallel start",
-    "start:gtm": "lerna run start --scope @gtm/react-gtm",
-    "start:usa": "lerna run start --scope @usa/react-usa-data-charts",
-    "start:blog": "lerna run start --scope @blog/my-personal-blog",
+    "start:gtm": "lerna run start --scope @hamed/react-gtm",
+    "start:usa": "lerna run start --scope @hamed/react-usa-data-charts",
+    "start:blog": "lerna run start --scope @hamed/blog",
     "new-version": "lerna version --conventional-commits --yes"
   },
   "repository": {

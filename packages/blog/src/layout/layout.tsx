@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
-import Navigation from "../hamed-ui-compoennts/src/components/navigation/navigation";
+import { Navigation } from "@hamed/ui-components";
 
 import * as S from "./layout.styled";
 
