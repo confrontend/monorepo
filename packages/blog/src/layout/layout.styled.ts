@@ -4,7 +4,6 @@ import { dark } from "../global/colors";
 export const Wrapper = styled.span`
   display: grid;
   min-height: 100%;
-  width: 100vw;
   grid-template-areas:
     "nav"
     "main-content";
@@ -22,9 +21,11 @@ export const Navigation = styled.span`
 export const Main = styled.main`
   @media (min-width: 600px) {
     padding: 4em 8em 4em 8em;
+    word-break: break-word;
   }
 
   @media (max-width: 599px) {
     padding: 1em 1em 1em 1em;
+    word-break: break-word;
   }
 `;
