@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import Navigation from "../components/navigation/navigation";
+import { signOut } from "../firebase";
 import {
   CacheContextProvider,
   CacheContextType,
@@ -12,9 +13,15 @@ const Layout = () => {
   const [cachedData, setCachedData] = useState({});
   const value: CacheContextType = { cachedData, setCachedData };
 
+  const signOutFirebase = () => signOut();
+
   return (
     <S.Wrapper>
-      <S.Title> US Financial Statistic 2022 </S.Title>
+      <S.Title>
+        <span>US Financial Statistic 2022 </span>
+        {/* fixme: styling */}
+        <button onClick={signOutFirebase}>Sign out</button>
+      </S.Title>
       <S.Navigation>
         <Navigation />
       </S.Navigation>

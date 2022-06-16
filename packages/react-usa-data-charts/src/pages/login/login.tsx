@@ -1,6 +1,14 @@
+import { MouseEvent, useRef } from "react";
+import { signIn } from "../../firebase";
 import * as S from "./login.styled";
 
 export default function Login() {
+  const emailRef = useRef(null);
+  const passwordRef = useRef(null);
+
+  const signInFirebase = (e: MouseEvent<HTMLInputElement>) =>
+    signIn(e, emailRef, passwordRef);
+
   return (
     <S.LoginWrapper>
       <S.LoginBoxWrapper>
@@ -12,6 +20,7 @@ export default function Login() {
               <input
                 type="text"
                 name="uname"
+                ref={emailRef}
                 placeholder="Type in your username"
                 required
               />
@@ -22,10 +31,15 @@ export default function Login() {
                 type="password"
                 name="pass"
                 placeholder="Type in your password"
+                ref={passwordRef}
                 required
               />
             </S.LoginInputWrapper>
-            <S.LoginSubmitInput value="Sign in" type="submit" />
+            <S.LoginSubmitInput
+              value="Sign in"
+              type="submit"
+              onClick={signInFirebase}
+            />
           </S.LoginFrom>
           <S.LoginParagraph>
             <small>

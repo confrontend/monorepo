@@ -3,6 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { Auth, getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+import { RefObject, MouseEvent } from "react";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -21,7 +22,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-const auth: Auth = getAuth(app);
+export const auth: Auth = getAuth(app);
 const db = getFirestore(app);
 
 // Initialize Firebase
@@ -29,11 +30,24 @@ export const initializeFirebase = () => {
   return { app, analytics };
 };
 
-const logInWithEmailAndPassword = async (email: string, password: string) => {
+export const signIn = async (
+  e: MouseEvent<HTMLInputElement>,
+  email: RefObject<HTMLInputElement>,
+  password: RefObject<HTMLInputElement>
+) => {
+  const mappedEmail = email.current?.value?.toLocaleLowerCase().trim() || "";
+
+  e.preventDefault();
   try {
-    await signInWithEmailAndPassword(auth, email, password);
+    await signInWithEmailAndPassword(
+      auth,
+      mappedEmail,
+      password.current?.value || ""
+    );
   } catch (err: any) {
     console.error(err);
-    alert(err.message);
+    alert(`${err.message} Please contact the developer and ask for an Account`);
   }
 };
+
+export const signOut = () => auth.signOut();

@@ -24,6 +24,11 @@ export const Title = styled.h1`
   color: #e3e3e3;
   background-image: url("images/black-pattern.png");
   background-size: contain;
+
+  button {
+    margin-left: 1em;
+    padding: 0.4em;
+  }
 `;
 
 export const Navigation = styled.span`
