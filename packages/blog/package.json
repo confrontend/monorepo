@@ -1,9 +1,9 @@
 {
-  "name": "@hamed/blog",
+  "name": "@confrontend/blog",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "craco start",
+    "start": "PORT=3003 craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
@@ -15,7 +15,7 @@
     ]
   },
   "dependencies": {
-    "@hamed/ui-components": "1.0.0"
+    "@confrontend/ui-components": "1.0.0"
   },
   "browserslist": {
     "production": [

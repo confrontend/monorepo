@@ -10,7 +10,7 @@ import * as S from "./navigation.styled";
 const Navigation = ({ navMenuItems }: { navMenuItems: INavigation[] }) => {
   return (
     <S.NavigationWrapper>
-      {navMenuItems.map((item) => (
+      {navMenuItems.map((item, index) => (
         <NavLink
           to={item.route}
           key={item.displayName}
@@ -18,7 +18,7 @@ const Navigation = ({ navMenuItems }: { navMenuItems: INavigation[] }) => {
           onFocus={item.lazyLoadComponent}
           style={({ isActive }) =>
             // eslint-disable-next-line no-restricted-globals
-            isActive || location.pathname === item.route
+            isActive || location.pathname === item.route || (location.pathname === "/" && index === 0)
               ? {
                   borderBottom: " 3px solid #0384fc",
                   marginBottom: "-3px",

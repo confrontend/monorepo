@@ -1,0 +1,106 @@
+import { IResume } from "./resume.types";
+
+export const resume: IResume = {
+  jobs: [
+    {
+      company: "Jambit GmbH, ​Stuttgart— (as Frontend Architect)",
+      date: "July 2017-Present",
+      projects: [
+        {
+          project: "Project: RND",
+          date: "2022-present",
+          desc: "RND.de is a news portal of the German News Network. Together with a team of 12 Frontend developers, a content management system is developed using React on frontend and AWS on backend side. The goal is to create a platform for the usage of website managers and news editors with the focus on usability and SEO. I support the team as a Frontend architect and also act as a Release Manager. The Repository is on Github therefore working with github workflows and defining jobs using yaml is a usual activity.",
+          skills:
+            "React,JavaScript,Typescript,Github,yaml,Unit testing with Jest,HTML5, Scss, CSS, Webpack, Kanban, Google Tag Manager, Google Analytics",
+        },
+        {
+          project: "Project: BMW ITO-19",
+          date: "2021-2022",
+          desc: "A large scale project with several subproducts which aims to provide cloud-based solutions for internal BMW engineers to process material data used in vehicle production lines. The project has been in development for several years by other providers. My role is to support the team as the only Frontend developer at this transitional stage, to analyze the project and provide a detailed report of the architecture, technical debt, complexity, security and make suggestions for possible improvements and estimate the size of possible future front end team and skill set.",
+          skills:
+            "Angular, JavaScript, Typescript, Extjs, Rxjs, Unit testing with Jasmine,HTML5, Scss, CSS, Webpack, Agile, Scrum",
+        },
+        {
+          project: "Project: Daimler Mercedes PRO",
+          date: "2017-2021",
+          desc: "Daimler Mercedes PRO describes a product of Mercedes-Benz AG for services in the logistics environment and is the platform for innovative digital services around the vehicle fleet. Jambit is, among many other companies (including Microsoft Germany), a partner in this large project. My focus was on the creation of the  web interface for the fleet managers, the Vehicle Management Tool (VMT). In this part of the project, the scope is focused on the web platform for fleet managers implemented in Angular.  The application is developed  in an international team of 30 frontend developers using agile methodology. Due to the large size of the code base and the team, several design strategies had to be implemented to pave the way for a maintainable product. Concepts such as reusability of components, separation of concerns, DRY, composition over inheritance, pure functions, stateless services, immutable state, testability,  are among many practices that had to be done to guarantee the product quality in the long run.",
+          skills:
+            "Angular,JavaScript, Typescript, Redux, Rxjs, Unit testing with Jasmine, E2E Testing with Webdriver IO,HTML5, Scss, CSS, Webpack,  Agile, Scrum",
+        },
+      ],
+    },
+    {
+      company: "Mogular GmbH, ​Stuttgart — (as working student)",
+      date: "Jan 2017-July 2017",
+      projects: [
+        {
+          project: "",
+          date: "",
+          desc: "Design and development of the front-end of a SPA Monitoring Dashboard..",
+          skills: "Angular, HTML 5, Vega, RxJS ",
+        },
+      ],
+    },
+    {
+      company:
+        "Weblicity GmbH, Stuttgart — Full stack Developer (as working student)",
+      date: "Oct 2015-jab 2017",
+      projects: [
+        {
+          project: "",
+          date: "",
+          desc: "Development of web apps for Business Workflows and  Compliance Solutions. (Working Student)",
+          skills: "Ext JS, ASP.NET MVC 4 Web Api and Sql server 2012.",
+        },
+      ],
+    },
+    {
+      company:
+        "University of Stuttgart (Human Computer Interaction), Stuttgart (as working student)",
+      date: "Oct 2014-Oct 2015",
+      projects: [
+        {
+          project: "",
+          date: "",
+          desc: "Developing Virtual Reality prototypes for research purposes and running user studies on the ending product to assess the user experience.",
+          skills: "Unity 3D Pro, C#, Photoshop,Illustrator",
+        },
+      ],
+    },
+  ],
+  education: [
+    {
+      uni: "Stuttgart Universität, Stuttgart— Master",
+      date: "2013–2017",
+      major: "Msc.Infotech (Hardware / Software Engineering)",
+    },
+    {
+      uni: "Payam Noor University of Mashhad, Iran— Bachelor",
+      date: "2007-2012",
+      major: "Computer Science",
+    },
+  ],
+  workshops: [
+    { title: "Angular advance-2019 (Manfred Steyer)" },
+    { title: "Webpack in depth-2019 (Johannes Ewald)" },
+    { title: "Vocal training-2018 (Dr. Iris Eicher)" },
+    { title: "Personality coaching (Dipl.-Psych. Raoul Sonnenberg)" },
+    { title: "Emotional Intelligenz (Dipl.-Psych. Raoul Sonnenberg)" },
+    { title: "Advance Reactjs - 2021 (jambit)" },
+  ],
+  interests: [
+    { title: "Front-end Development" },
+    { title: "Design and development of User Interfaces" },
+    { title: "Programming for Web and handheld devices" },
+    { title: "Web technologies" },
+    {
+      title:
+        "Non-technical: Psychology, Philosophy, Astronomy, Camping, Swimming",
+    },
+  ],
+  languages: [
+    { title: "Farsi", level: "Mother tongue:" },
+    { title: "English", level: "Fluent (C1)" },
+    { title: "German", level: "Good (B2)" },
+  ],
+};
