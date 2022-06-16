@@ -17,8 +17,6 @@ const navItems = [
 ];
 
 const Layout = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
     <S.Wrapper>
       <S.Navigation>

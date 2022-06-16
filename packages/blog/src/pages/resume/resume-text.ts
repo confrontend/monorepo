@@ -99,7 +99,7 @@ export const resume: IResume = {
     },
   ],
   languages: [
-    { title: "Farsi", level: "Mother tongue:" },
+    { title: "Farsi", level: "Mother tongue" },
     { title: "English", level: "Fluent (C1)" },
     { title: "German", level: "Good (B2)" },
   ],
