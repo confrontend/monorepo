@@ -11,7 +11,7 @@ export const resume: IResume = {
           date: "2022-present",
           desc: "RND.de is a news portal of the German News Network. Together with a team of 12 Frontend developers, a content management system is developed using React on frontend and AWS on backend side. The goal is to create a platform for the usage of website managers and news editors with the focus on usability and SEO. I support the team as a Frontend architect and also act as a Release Manager. The Repository is on Github therefore working with github workflows and defining jobs using yaml is a usual activity.",
           skills:
-            "React,JavaScript,Typescript,Github,yaml,Unit testing with Jest,HTML5, Scss, CSS, Webpack, Kanban, Google Tag Manager, Google Analytics",
+            "React, JavaScript, Typescript, Github, yaml, Unit testing with Jest, HTML5, Scss, CSS, Webpack, Kanban, Google Tag Manager, Google Analytics",
         },
         {
           project: "Project: BMW ITO-19",
@@ -25,7 +25,7 @@ export const resume: IResume = {
           date: "2017-2021",
           desc: "Daimler Mercedes PRO describes a product of Mercedes-Benz AG for services in the logistics environment and is the platform for innovative digital services around the vehicle fleet. Jambit is, among many other companies (including Microsoft Germany), a partner in this large project. My focus was on the creation of the  web interface for the fleet managers, the Vehicle Management Tool (VMT). In this part of the project, the scope is focused on the web platform for fleet managers implemented in Angular.  The application is developed  in an international team of 30 frontend developers using agile methodology. Due to the large size of the code base and the team, several design strategies had to be implemented to pave the way for a maintainable product. Concepts such as reusability of components, separation of concerns, DRY, composition over inheritance, pure functions, stateless services, immutable state, testability,  are among many practices that had to be done to guarantee the product quality in the long run.",
           skills:
-            "Angular,JavaScript, Typescript, Redux, Rxjs, Unit testing with Jasmine, E2E Testing with Webdriver IO,HTML5, Scss, CSS, Webpack,  Agile, Scrum",
+            "Angular, JavaScript, Typescript, Redux, Rxjs, Unit testing with Jasmine, E2E Testing with Webdriver IO, HTML5, Scss, CSS, Webpack, Agile, Scrum",
         },
       ],
     },

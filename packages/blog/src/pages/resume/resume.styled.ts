@@ -19,6 +19,9 @@ export const Summary = styled.div`
   align-items: center;
   gap: 2em;
   margin-bottom: 2em;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 1em;
+  padding: 1em;
 `;
 
 export const SummaryImage = styled.img`
