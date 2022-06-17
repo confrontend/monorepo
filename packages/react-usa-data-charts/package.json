@@ -27,7 +27,8 @@
     "lint:es:fix": "npm run lint:es -- --fix",
     "lint:style": "stylelint \"(!(components/resources/templates/**/*|resources/cpg/**/*|storybook-static/**/*|resources/cmp/**/*))**/*.{ts,tsx,js,jsx,!storybook}\"",
     "lint:style:fix": "npm run lint:style -- --fix",
-    "lint:types": "tsc --project tsconfig.json"
+    "lint:types": "tsc --project tsconfig.json",
+    "deploy": "npm run build && firebase deploy"
   },
   "eslintConfig": {
     "extends": [
