@@ -13,7 +13,7 @@ export const ButtonWrapper = styled.span`
   padding: 6px 24px;
   text-decoration: none;
   &:hover {
-    background-color: #0061fe13; /* Green */
+    background-color: #0061fe13;
     color: #000;
   }
 `;
