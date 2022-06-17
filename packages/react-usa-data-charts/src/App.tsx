@@ -5,8 +5,6 @@ import { initializeApp } from "firebase/app";
 import { lazy, Suspense, FormEvent } from "react";
 import NonIdealState from "./components/UI/non-ideal-state/non-ideal-state";
 
-// Lazy loading area
-const Login = lazy(() => import("./pages/signin-page/signin-page"));
 // Webpack magic comment to enable preloading <Link rel="prefetch" ..>
 const Tax = lazy(() => import(/* webpackPrefetch: true */ "./pages/tax/tax"));
 const Weather = lazy(() => import("./pages/weather/weather"));
@@ -17,28 +15,15 @@ const Demography = lazy(() => import("./pages/demography/demography"));
 import { firebaseConfig } from "./firebase-config";
 import { FirebaseProvider } from "./global/providers";
 import SignInPage from "./pages/signin-page/signin-page";
-import { signInWithFirebase } from "./apis/auth/auth-firebase";
-import { useHandleAuth } from "./global/utils/auth-util";
+
+import { handleSignIn, useHandleAuth } from "./global/utils/auth-util";
 
 function App() {
   const app = initializeApp(firebaseConfig);
 
   const [user, isLoading] = useHandleAuth(app);
 
-  const signInFn = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const elements: any = e.currentTarget.elements;
-
-    signInWithFirebase(
-      e,
-      app,
-      elements.username.value,
-      elements.password.value
-    ).catch((err) => {
-      // fixme handle error properly
-      alert(err);
-    });
-  };
+  const signInFn = (e: FormEvent<HTMLFormElement>) => handleSignIn(e, app);
 
   return (
     <FirebaseProvider value={app}>

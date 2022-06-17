@@ -11,13 +11,13 @@ export const LoginWrapper = styled.div`
   grid-row-gap: 0px;
   align-items: center;
   justify-items: center;
-  background-image: url("bg-login.jpg");
 `;
 
 export const LoginBoxWrapper = styled.div`
   h1 {
     height: 3em;
   }
+ 
 `;
 
 export const LoginBox = styled.div`

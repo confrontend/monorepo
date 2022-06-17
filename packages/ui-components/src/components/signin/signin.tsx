@@ -1,5 +1,4 @@
-import { FirebaseApp } from "firebase/app";
-import { FormEvent, MouseEventHandler } from "react";
+import { FormEvent } from "react";
 import * as S from "./signin.styled";
 
 export default function SignIn({
