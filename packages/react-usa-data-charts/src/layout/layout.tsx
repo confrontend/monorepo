@@ -1,26 +1,29 @@
+import { SignOut as UISignOut } from "@confrontend/ui-components";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import Navigation from "../components/navigation/navigation";
-import { signOut } from "../firebase";
+import { getAuth, signOut } from "firebase/auth";
+
 import {
   CacheContextProvider,
   CacheContextType,
 } from "../providers/cache.provider";
 
 import * as S from "./layout.styled";
+import { FirebaseApp } from "firebase/app";
 
-const Layout = () => {
+const Layout = ({ app }: { app: FirebaseApp }) => {
   const [cachedData, setCachedData] = useState({});
   const value: CacheContextType = { cachedData, setCachedData };
 
-  const signOutFirebase = () => signOut();
+  const signOutFn = () => signOut(getAuth(app));
 
   return (
     <S.Wrapper>
       <S.Title>
         <span>US Financial Statistic 2022 </span>
         {/* fixme: styling */}
-        <button onClick={signOutFirebase}>Sign out</button>
+        <UISignOut signOutFn={signOutFn} />
       </S.Title>
       <S.Navigation>
         <Navigation />

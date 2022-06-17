@@ -1,45 +1,36 @@
-import { MouseEvent, useRef } from "react";
-import { signIn } from "../../firebase";
-import * as S from "./login.styled";
+import { FirebaseApp } from "firebase/app";
+import { FormEvent, MouseEventHandler } from "react";
+import * as S from "./signin.styled";
 
-export default function Login() {
-  const emailRef = useRef(null);
-  const passwordRef = useRef(null);
-
-  const signInFirebase = (e: MouseEvent<HTMLInputElement>) =>
-    signIn(e, emailRef, passwordRef);
-
+export default function SignIn({
+  signInFn,
+}: {
+  signInFn: (e: FormEvent<HTMLFormElement>) => void;
+}): JSX.Element {
   return (
     <S.LoginWrapper>
       <S.LoginBoxWrapper>
-        <h1>Welcome!</h1>
         <S.LoginBox>
-          <S.LoginFrom>
+          <S.LoginFrom onSubmit={signInFn}>
             <S.LoginInputWrapper>
-              <label htmlFor="uname">Username</label>
+              <label htmlFor="username">Username</label>
               <input
                 type="text"
-                name="uname"
-                ref={emailRef}
+                name="username"
                 placeholder="Type in your username"
                 required
               />
             </S.LoginInputWrapper>
             <S.LoginInputWrapper>
-              <label htmlFor="uname">Password</label>
+              <label htmlFor="pass">Password</label>
               <input
                 type="password"
-                name="pass"
+                name="password"
                 placeholder="Type in your password"
-                ref={passwordRef}
                 required
               />
             </S.LoginInputWrapper>
-            <S.LoginSubmitInput
-              value="Sign in"
-              type="submit"
-              onClick={signInFirebase}
-            />
+            <S.LoginSubmitInput value="Sign in" type="submit" />
           </S.LoginFrom>
           <S.LoginParagraph>
             <small>
@@ -48,7 +39,6 @@ export default function Login() {
           </S.LoginParagraph>
         </S.LoginBox>
       </S.LoginBoxWrapper>
-      <S.LoginSide />
     </S.LoginWrapper>
   );
 }

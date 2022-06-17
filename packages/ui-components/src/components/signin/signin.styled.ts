@@ -1,24 +1,17 @@
-import { loginBoxWidth } from "../../styles/variables";
 import styled from "styled-components";
+
+export const loginBoxWidth = "25em";
 
 export const LoginWrapper = styled.div`
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   align-items: center;
   justify-items: center;
-`;
-
-export const LoginSide = styled.div`
-  background-image: url("images/login-side.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  background-image: url("bg-login.jpg");
 `;
 
 export const LoginBoxWrapper = styled.div`
@@ -33,8 +26,8 @@ export const LoginBox = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 25em;
   width: ${loginBoxWidth};
-  background-color: #be0118;
-  color: #fff;
+  background-color: #fff;
+  color: #111;
 `;
 
 export const LoginFrom = styled.form`
@@ -54,9 +47,10 @@ export const LoginInputWrapper = styled.div`
   input {
     height: 2.5em;
     border: 0;
-    border-radius: 0.5em;
+    border-radius: 1em;
     padding: 1em;
     font-size: 1em;
+    background-color: #ddd;
   }
 `;
 
@@ -68,17 +62,18 @@ export const LoginSubmitInput = styled.input`
   border: 0;
   padding: 0.5em;
   width: 100%;
-  border-radius: 0.5em;
-  background-color: #0384fc;
+  border-radius: 1em;
+  background-color: #333;
   &:hover {
     cursor: pointer;
-    background-color: #ef5350;
+    background-color: #0384fc;
   }
 `;
 
 export const LoginParagraph = styled.p`
-  padding: 0.2em 0.5em 0.2em 0.5em;
+  padding: 0.3em 0.5em 0.2em 0.5em;
   color: #eee;
   word-wrap: break-word;
   width: ${loginBoxWidth};
+  color: #999;
 `;
