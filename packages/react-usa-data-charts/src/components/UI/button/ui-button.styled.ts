@@ -15,6 +15,5 @@ export const ButtonWrapper = styled.span`
   &:hover {
     background-color: #0061fe13; /* Green */
     color: #000;
-    /* border: 1px solid #0062fe; */
   }
 `;
