@@ -11,6 +11,7 @@ export const LoginWrapper = styled.div`
   grid-row-gap: 0px;
   align-items: center;
   justify-items: center;
+  background-color: #2CA58D;
 `;
 
 export const LoginBoxWrapper = styled.div`
