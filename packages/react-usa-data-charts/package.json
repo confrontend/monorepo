@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "PORT=3000 craco start",
-    "build": "craco build --stats",
+    "build": "DISABLE_ESLINT_PLUGIN=true craco build --stats",
     "serve": "serve -s build",
     "test": "craco test",
     "analyze": "webpack-bundle-analyzer build/bundle-stats.json",
