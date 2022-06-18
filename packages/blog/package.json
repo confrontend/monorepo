@@ -1,6 +1,6 @@
 {
   "name": "@confrontend/blog",
-  "version": "1.0.1",
+  "version": "1.0.21",
   "private": true,
   "scripts": {
     "start": "PORT=3003 craco start",
@@ -15,7 +15,7 @@
     ]
   },
   "dependencies": {
-    "@confrontend/ui-components": "^1.0.1"
+    "@confrontend/ui-components": "^1.0.21"
   },
   "browserslist": {
     "production": [
