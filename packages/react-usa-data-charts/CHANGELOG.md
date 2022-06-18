@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.19](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-usa-data-charts_v1.0.18...Release_@confrontend/react-usa-data-charts_v1.0.19) (2022-06-18)
+
+**Note:** Version bump only for package @confrontend/react-usa-data-charts
+
+
+
+
+
 ## [1.0.18](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-usa-data-charts_v1.0.17...Release_@confrontend/react-usa-data-charts_v1.0.18) (2022-06-18)
 
 **Note:** Version bump only for package @confrontend/react-usa-data-charts
