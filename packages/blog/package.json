@@ -1,6 +1,6 @@
 {
   "name": "@confrontend/blog",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "private": true,
   "scripts": {
     "start": "PORT=3003 craco start",
