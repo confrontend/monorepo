@@ -15,4 +15,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG_CONFRONTEND }}'
           entryPoint: './packages/blog'
           channelId: live
-          projectId: blog
+          projectId: blog-confrontend
