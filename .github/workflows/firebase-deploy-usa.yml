@@ -5,7 +5,7 @@ name: Deploy to Firebase Hosting on release tag push (@confrontend/react-usa-dat
 'on':
   push:
     tags:
-      - 'Release_*'
+      - 'Release_@confrontend/react-usa-data-charts_v*.*.*'
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
