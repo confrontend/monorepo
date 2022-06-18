@@ -7,7 +7,7 @@ type GMapProps = {
   options: any;
 };
 /**
- * Google GeoChart 
+ * Google GeoChart
  */
 export function GMap({ data, options }: GMapProps) {
   // const [ready, setReady] = useState(false);
