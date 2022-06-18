@@ -1,5 +1,6 @@
 import * as S from "./loading.styled";
 
+// fixme: styling
 export default function Loading({
   loading,
   failed,
