@@ -14,4 +14,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_USA_DATA_CHARTS }}'
           channelId: live
-          projectId: react-gtm
+          projectId: react-usa-data-charts
