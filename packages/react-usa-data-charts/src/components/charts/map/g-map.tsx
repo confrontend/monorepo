@@ -6,7 +6,9 @@ type GMapProps = {
   headers?: string[];
   options: any;
 };
-
+/**
+ * Google GeoChart Component
+ */
 export function GMap({ data, options }: GMapProps) {
   // const [ready, setReady] = useState(false);
   return (
