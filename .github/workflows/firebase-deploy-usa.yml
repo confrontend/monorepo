@@ -13,6 +13,6 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_USA_DATA_CHARTS }}'
-          entryPoint: './packages/react-usa-data-charts/firebase.json'
+          entryPoint: './packages/react-usa-data-charts'
           channelId: live
           projectId: react-usa-data-charts
