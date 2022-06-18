@@ -33,7 +33,7 @@ export default function SignIn({
           </S.LoginFrom>
           <S.LoginParagraph>
             <small>
-              Please contact developer for a test user and password.
+              Please contact the developer for a test account.
             </small>
           </S.LoginParagraph>
         </S.LoginBox>
