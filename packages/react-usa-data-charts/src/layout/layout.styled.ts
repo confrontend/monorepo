@@ -11,19 +11,20 @@ export const Wrapper = styled.span`
     "nav"
     "main-content"
     "footer";
-  grid-template-rows: 6em auto 1fr 10em;
+  grid-template-rows: 4em auto 1fr 10em;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h2`
   grid-area: header;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
   background-color: #1e1e1e;
   color: #e3e3e3;
   background-image: url("images/black-pattern.png");
   background-size: contain;
+  padding: 0 1em 0 1em;
 
   button {
     margin-left: 1em;

@@ -1,7 +1,7 @@
 import { MouseEventHandler, useEffect, useState, MouseEvent } from "react";
 import { getHistoricWeather } from "../../apis/fetch-weather";
 import { GMap } from "../../components/charts/map/g-map";
-import UiButton from "../../components/UI/button/ui-button";
+import UiButton from "@confrontend/ui-components/src/components/button/ui-button";
 import Section from "../../components/UI/section/ui-section";
 import { weatherColorRange } from "../../styles/colors";
 import * as S from "./weather.styled";
