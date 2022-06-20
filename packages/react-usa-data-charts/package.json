@@ -1,9 +1,9 @@
 {
   "name": "@confrontend/react-usa-data-charts",
-  "version": "1.0.22",
+  "version": "1.0.27",
   "private": true,
   "dependencies": {
-    "@confrontend/ui-components": "^1.0.22",
+    "@confrontend/ui-components": "^1.0.27",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
     "@mui/material": "5.8.1",
