@@ -20,7 +20,18 @@ const Layout = () => {
   return (
     <S.Wrapper>
       <S.Navigation>
-        <Navigation navMenuItems={navItems} />
+        <Navigation
+          navMenuItems={navItems}
+          rightSideItems={
+            <a
+              href="https://github.com/Confrontend"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="GitHub-Mark-Light-32px.png" alt="my github" />
+            </a>
+          }
+        />
       </S.Navigation>
       <S.Main>
         <Outlet />

@@ -6,6 +6,7 @@ import Layout from "./layout/layout";
 
 import { GlobalStyle } from "./App.styled";
 import { NonIdealState } from "@confrontend/ui-components";
+import HelmetMeta from "./components/seo/helmet-meta";
 
 // Import the functions you need from the SDKs you need
 const Blog = lazy(() => import("./pages/blog"));
@@ -16,6 +17,7 @@ const Resume = lazy(() => import("./pages/resume/resume"));
 function App() {
   return (
     <div className="App">
+      <HelmetMeta />
       <GlobalStyle />
       <BrowserRouter>
         <Routes>

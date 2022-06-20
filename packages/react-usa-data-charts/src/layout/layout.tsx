@@ -1,7 +1,6 @@
-import { SignOut as UISignOut } from "@confrontend/ui-components";
+import { SignOut as UISignOut, Navigation } from "@confrontend/ui-components";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
-import Navigation from "../components/navigation/navigation";
 import { getAuth, signOut } from "firebase/auth";
 
 import {
@@ -11,6 +10,7 @@ import {
 
 import * as S from "./layout.styled";
 import { FirebaseApp } from "firebase/app";
+import { navMenuItems } from "../components/navigation/navigation-items";
 
 const Layout = ({ app }: { app: FirebaseApp }) => {
   const [cachedData, setCachedData] = useState({});
@@ -26,7 +26,7 @@ const Layout = ({ app }: { app: FirebaseApp }) => {
         <UISignOut signOutFn={signOutFn} />
       </S.Title>
       <S.Navigation>
-        <Navigation />
+        <Navigation navMenuItems={navMenuItems} />
       </S.Navigation>
       <S.Main>
         <CacheContextProvider value={value}>

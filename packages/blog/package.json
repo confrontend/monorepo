@@ -15,7 +15,9 @@
     ]
   },
   "dependencies": {
-    "@confrontend/ui-components": "^1.0.22"
+    "@confrontend/ui-components": "^1.0.22",
+    "@types/react-helmet": "^6.1.5",
+    "react-helmet": "^6.1.0"
   },
   "browserslist": {
     "production": [

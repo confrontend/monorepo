@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
-export const NavigationWrapper = styled.span`
+type NavigationWrapperProps = {
+  linkStyle?: string;
+};
+
+export const NavigationWrapper = styled.span<NavigationWrapperProps>`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: left;
   column-gap: 1em;
   padding-left: 3em;
   height: 2.5em;
@@ -21,4 +24,22 @@ export const NavigationWrapper = styled.span`
       box-shadow: 0 1px 0 0 #0384fc;
       cursor: pointer;
     }
+  }
+`;
+
+export const ItemRightWrapper = styled.span`
+  margin-left: auto;
+  padding-right: 2em;
+  a {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    &:not(.active):hover {
+      box-shadow: 0 0 0 0 ;
+      cursor: pointer;
+    }
+  }
 `;

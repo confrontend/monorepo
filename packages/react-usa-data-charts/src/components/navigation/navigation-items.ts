@@ -1,27 +1,29 @@
+import { INavigation } from "@confrontend/ui-components/src/components/navigation/navigation.types";
+
 /**
  * List of items in navigation bar.
  * Each items includes a displayName, a route destination and a lazy loading import method
  */
-export const navMenuItems = [
+export const navMenuItems: INavigation[] = [
   {
     displayName: "Tax",
-    to: "/tax",
+    route: "/tax",
     // Tax is prefetched. See also [const Tax](./src/App.tsx)
-    loadComponent: () => null,
+    lazyLoadComponent: async() => null,
   },
   {
     displayName: "Life Quality",
-    to: "/life-quality",
-    loadComponent: () => import("../../pages/life-quality/life-quality"),
+    route: "/life-quality",
+    lazyLoadComponent: () => import("../../pages/life-quality/life-quality"),
   },
   {
     displayName: "Weather",
-    to: "/weather",
-    loadComponent: () => import("../../pages/weather/weather"),
+    route: "/weather",
+    lazyLoadComponent: () => import("../../pages/weather/weather"),
   },
   {
     displayName: "Demography",
-    to: "/demography",
-    loadComponent: () => import("../../pages/demography/demography"),
+    route: "/demography",
+    lazyLoadComponent: () => import("../../pages/demography/demography"),
   },
 ];
