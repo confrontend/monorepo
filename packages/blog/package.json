@@ -3,10 +3,8 @@
   "version": "1.0.29",
   "private": true,
   "scripts": {
-    "start": "PORT=3003 craco start",
-    "build": "DISABLE_ESLINT_PLUGIN=true craco build",
-    "test": "craco test",
-    "eject": "craco eject"
+    "start": "webpack serve  --hot ",
+    "build": "webpack --config webpack.config.js --mode production"
   },
   "eslintConfig": {
     "extends": [
