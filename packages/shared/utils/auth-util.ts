@@ -1,9 +1,9 @@
 import { FirebaseApp } from "firebase/app";
 import { getAuth, User } from "firebase/auth";
 import { FormEvent, useEffect, useState } from "react";
-import { signInWithFirebase } from "../../apis/auth/auth-firebase";
+import { signInWithFirebase } from "../../react-usa-data-charts/src/apis/auth/auth-firebase";
 
-export const useHandleAuth = (app: FirebaseApp): [User, boolean] => {
+const useHandleAuth = (app: FirebaseApp): [User, boolean] => {
   const [user, setUser] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -28,10 +28,7 @@ export const useHandleAuth = (app: FirebaseApp): [User, boolean] => {
   return [user, isLoading];
 };
 
-export const handleSignIn = (
-  e: FormEvent<HTMLFormElement>,
-  app: FirebaseApp
-) => {
+const handleSignIn = (e: FormEvent<HTMLFormElement>, app: FirebaseApp) => {
   e.preventDefault();
   const elements: any = e.currentTarget.elements;
 
@@ -45,3 +42,5 @@ export const handleSignIn = (
     alert(err);
   });
 };
+
+export { useHandleAuth, handleSignIn };

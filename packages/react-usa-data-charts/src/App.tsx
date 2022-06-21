@@ -13,10 +13,10 @@ const Demography = lazy(() => import("./pages/demography/demography"));
 // -- End of Lazy loading area
 
 import { firebaseConfig } from "./firebase-config";
-import { FirebaseProvider } from "./global/providers";
+import { FirebaseProvider } from "@confrontend/shared";
 import SignInPage from "./pages/signin-page/signin-page";
 
-import { handleSignIn, useHandleAuth } from "./global/utils/auth-util";
+import { handleSignIn, useHandleAuth } from "@confrontend/shared";
 
 function App() {
   const app = initializeApp(firebaseConfig);

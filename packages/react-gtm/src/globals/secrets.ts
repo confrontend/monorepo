@@ -6,4 +6,3 @@
  */
 export const newsApiKey = "";
 
-export const firebaseApiKey = "";
