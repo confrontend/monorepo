@@ -1,6 +1,6 @@
 {
   "name": "@confrontend/react-gtm",
-  "version": "1.0.28",
+  "version": "1.0.30",
   "private": true,
   "dependencies": {
     "typescript": "4.7.3",
@@ -27,8 +27,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-
   }
 }

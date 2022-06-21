@@ -1,6 +1,6 @@
 {
   "name": "@confrontend/react-usa-data-charts",
-  "version": "1.0.0",
+  "version": "1.0.30",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,15 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@confrontend/shared": "1.0.0",
-    "@mui/material": "^5.8.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@confrontend/ui-components": "^1.0.28",
+    "@confrontend/shared": "^1.0.30",
+    "@confrontend/ui-components": "^1.0.30",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
     "@mui/material": "5.8.1",
     "papaparse": "5.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-google-charts": "4.0.0",
     "sass": "1.51.0",
     "styled-components": "5.3.5",
@@ -28,21 +27,21 @@
     "write-json-file": "5.0.0"
   },
   "devDependencies": {
-    "@types/papaparse": "^5.3.2",
-    "@types/react": "^18.0.14",
-    "@types/react-dom": "^18.0.5",
-    "react-refresh": "^0.14.0",
-    "@types/styled-components": "5.1.25",
-    "eslint": "8.16.0",
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
     "@babel/preset-typescript": "^7.17.12",
-    "eslint-plugin-unused-imports": "2.0.0",
-    "babel-loader": "^8.2.5",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@types/papaparse": "^5.3.2",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@types/styled-components": "5.1.25",
+    "babel-loader": "^8.2.5",
+    "eslint": "8.16.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "react-refresh": "^0.14.0",
     "webpack": "^5.73.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-bundle-analyzer": "4.5.0"
+    "webpack-bundle-analyzer": "4.5.0",
+    "webpack-cli": "^4.10.0"
   }
 }
