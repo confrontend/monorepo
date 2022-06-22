@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.37](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.0.36...Release_@confrontend/react-gtm_v1.0.37) (2022-06-22)
+
+**Note:** Version bump only for package @confrontend/ui-components
+
+
+
+
+
 ## [1.0.32](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/blog_v1.0.31...Release_@confrontend/blog_v1.0.32) (2022-06-22)
 
 **Note:** Version bump only for package @confrontend/ui-components
