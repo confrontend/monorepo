@@ -1,0 +1,18 @@
+name: Deploy to Firebase Hosting on release tag push (@confrontend/gtm)
+'on':
+  push:
+    tags:
+      - 'Release_@confrontend/react-gtm_v*.*.*'
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci --legacy-peer-deps && cd packages/react-gtm && npm run build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_GTM }}'
+          entryPoint: './packages/react-gtm'
+          channelId: live
+          projectId: react-gtm
