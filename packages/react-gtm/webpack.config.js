@@ -27,12 +27,12 @@ module.exports = {
       {
         test: /\.(css|scss)$/,
         exclude: /node_modules/,
-        use: ["style-loader", "css-loader"],
+        use: ["url-loader", "style-loader", "css-loader"],
       },
       {
         test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
         exclude: /node_modules/,
-        use: ["file-loader"],
+        use: ["url-loader"],
       },
     ],
   },

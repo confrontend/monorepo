@@ -13,7 +13,7 @@ import Layout from "./layout/layout";
 import { MenuItem } from "./globals/enums";
 import NoPage from "./pages/no-page";
 
-function App() {
+function App(){
   console.log('Hamed');
   
   return (
