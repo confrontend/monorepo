@@ -30,7 +30,7 @@ function App() {
   return (
     <FirebaseProvider value={app}>
       {isLoading ? (
-        //fixme: Styling
+        //fixme: Styling 
         <div></div>
       ) : !user ? (
         <S.SignInWrapper>
