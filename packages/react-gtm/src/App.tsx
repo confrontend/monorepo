@@ -20,7 +20,7 @@ import {
   handleSignIn,
   useHandleAuth,
 } from "@confrontend/shared";
-import SignInPage from "./pages/signin-page";
+import SignInPage from "./pages/signin-page"; 
 
 function App() {
   const app = initializeApp(firebaseConfig);
