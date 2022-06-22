@@ -14,8 +14,6 @@ import { MenuItem } from "./globals/enums";
 import NoPage from "./pages/no-page";
 
 function App(){
-  console.log('Hamed');
-  
   return (
     <div className="App">
       <BrowserRouter>
