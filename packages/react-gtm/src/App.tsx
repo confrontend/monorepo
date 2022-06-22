@@ -2,7 +2,7 @@ import React, { FormEvent } from "react";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import "./App.css";
-import * as S from './App.styled'
+import * as S from "./App.styled";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -20,7 +20,7 @@ import {
   handleSignIn,
   useHandleAuth,
 } from "@confrontend/shared";
-import SignInPage from "./pages/signin-page"; 
+import SignInPage from "./pages/signin-page";
 
 function App() {
   const app = initializeApp(firebaseConfig);
@@ -30,7 +30,7 @@ function App() {
   return (
     <FirebaseProvider value={app}>
       {isLoading ? (
-        //fixme: Styling 
+        //fixme: Styling
         <div></div>
       ) : !user ? (
         <S.SignInWrapper>
