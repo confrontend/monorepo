@@ -16,9 +16,20 @@ export const Navigation = styled.span`
   top: 0;
   z-index: 1;
   background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+  button {
+    margin-left: 1em;
+    padding: 0.4em;
+  }
 `;
 
 export const Main = styled.main`
+ 
   @media (min-width: 450px) {
     padding: 4em 8em 4em 8em;
   }

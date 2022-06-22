@@ -1,17 +1,20 @@
-import { useState } from "react";
+import { SignOut as UISignOut, Navigation } from "@confrontend/ui-components";
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/navbar/navbar";
-
+import { getAuth, signOut } from "firebase/auth";
 import * as S from "./layout.styled";
+import { FirebaseApp } from "firebase/app";
 
 /**
  * Layout of the Application.
  */
-const Layout = (): JSX.Element => {
+const Layout = ({ app }: { app: FirebaseApp }): JSX.Element => {
+  const signOutFn = () => signOut(getAuth(app));
   return (
     <S.Wrapper>
       <S.Navigation>
         <Navbar />
+        <UISignOut signOutFn={signOutFn} />
       </S.Navigation>
       <S.Main>
         {/* <CacheContextProvider value={value}> */}

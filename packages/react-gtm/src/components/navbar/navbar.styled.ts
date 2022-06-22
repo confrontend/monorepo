@@ -6,9 +6,8 @@ const mobileWidth = "768px";
 
 export const NavWrapper = styled.span`
   background: #000;
-  box-shadow: 0 5px 10px #ccc;
   display: grid;
-  grid-template-columns: 10em 1fr;
+  grid-template-columns: 22em 1fr;
   background-color: #000;
 `;
 
@@ -16,7 +15,7 @@ export const NavLinkWrapper = styled.nav`
   @media (max-width: ${mobileWidth}) {
     display: none;
   }
-
+  /* TODO fix styling on mobile view */
   @media (min-width: ${mobileWidth}) {
     height: ${navBarHeight};
     // Compensating for logo width to keep links in center
