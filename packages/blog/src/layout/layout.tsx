@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Navigation } from "@confrontend/ui-components";
+import GithubSrc from "../../public/GitHub-Mark-Light-32px.png";
 
 import * as S from "./layout.styled";
 
@@ -28,7 +29,7 @@ const Layout = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="GitHub-Mark-Light-32px.png" alt="my github" />
+              <img src={GithubSrc} alt="my github" />
             </a>
           }
         />
