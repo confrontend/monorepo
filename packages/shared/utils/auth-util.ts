@@ -3,7 +3,7 @@ import { getAuth, User } from "firebase/auth";
 import { FormEvent, useEffect, useState } from "react";
 import { signInWithFirebase } from "../../react-usa-data-charts/src/apis/auth/auth-firebase";
 
-const useHandleAuth = (app: FirebaseApp): [User, boolean] => {
+const useHandleAuth = (app: FirebaseApp | undefined): [User, boolean] => {
   const [user, setUser] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(true);
 

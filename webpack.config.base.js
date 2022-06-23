@@ -33,6 +33,12 @@ const BaseWebpackConfig = {
         exclude: /node_modules/,
         use: ["url-loader"],
       },
+      {
+        test: /\.js$/,
+        enforce: 'pre',
+        // loading source maps
+        use: ['source-map-loader'],
+      },
     ],
   },
   plugins: [new CleanWebpackPlugin()],

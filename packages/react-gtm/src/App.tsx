@@ -21,11 +21,15 @@ import {
   useHandleAuth,
 } from "@confrontend/shared";
 import SignInPage from "./pages/signin-page";
+import Gtm from "./components/gtm/gtm";
+
 
 function App() {
+
   const app = initializeApp(firebaseConfig);
   const [user, isLoading] = useHandleAuth(app);
   const signInFn = (e: FormEvent<HTMLFormElement>) => handleSignIn(e, app);
+  console.log("Hmed");
 
   return (
     <FirebaseProvider value={app}>
@@ -38,16 +42,19 @@ function App() {
           <SignInPage signInFn={signInFn} />
         </S.SignInWrapper>
       ) : (
-        <BrowserRouter>
-          <Routes>
-            <Route element={<Layout app={app} />}>
-              <Route path="" element={<Technology />} />
-              <Route path={MenuItem.business} element={<Business />} />
-              <Route path={MenuItem.science} element={<Science />} />
-              <Route path="*" element={<NoPage />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
+        <>
+          <Gtm />
+          <BrowserRouter>
+            <Routes>
+              <Route element={<Layout app={app} />}>
+                <Route path="" element={<Technology />} />
+                <Route path={MenuItem.business} element={<Business />} />
+                <Route path={MenuItem.science} element={<Science />} />
+                <Route path="*" element={<NoPage />} />
+              </Route>
+            </Routes>
+          </BrowserRouter>
+        </>
       )}
     </FirebaseProvider>
   );
