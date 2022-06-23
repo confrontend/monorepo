@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchResume } from "../../api/fetch-resume";
+import HamedSrc from "../../../public/hamed.png";
 
 import * as S from "./resume.styled";
 import { IResume } from "./resume.types";
@@ -14,7 +15,7 @@ export default function Resume() {
   return (
     <S.Container>
       <S.Summary>
-        <S.SummaryImage src="hamed.png" />
+        <S.SummaryImage src={HamedSrc} />
         <S.SummaryInfo>
           Hamed Fatehi M.Sc. Stuttgart University 🇩🇪 Software Architect
         </S.SummaryInfo>
