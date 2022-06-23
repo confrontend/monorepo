@@ -29,6 +29,7 @@ function App() {
 
   return (
     <FirebaseProvider value={app}>
+      <S.GlobalStyle />
       {isLoading ? (
         //fixme: Styling
         <div></div>

@@ -10,10 +10,10 @@
   "scripts": {
     "start:all": "lerna run --parallel start",
     "start:gtm": "lerna run start --stream --scope @confrontend/react-gtm",
+    "serve:gtm": "http-server  --proxy http://localhost:8080? ./packages/react-gtm/build",
     "start:usa": "lerna run start --stream --scope @confrontend/react-usa-data-charts",
     "start:blog": "lerna run start --stream --scope @confrontend/blog",
     "serve:blog": "http-server  --proxy http://localhost:8080? ./packages/blog/build",
-    "serve:gtm": "http-server  --proxy http://localhost:8080? ./packages/react-gtm/build",
     "new-version": "lerna version --conventional-commits --yes",
     "new-version:gtm": "lerna version --conventional-commits --yes --tag-version-prefix='Release_@confrontend/react-gtm_v'",
     "new-version:usa": "lerna version --conventional-commits --yes --tag-version-prefix='Release_@confrontend/react-usa-data-charts_v'",
