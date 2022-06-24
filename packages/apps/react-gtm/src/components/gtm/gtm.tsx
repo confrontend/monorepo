@@ -48,7 +48,7 @@ function GtmCustomEvents() {
   const firebase = useFirebase();
   const [user] = useHandleAuth(firebase?.app);
 
-  // TODO: make sign in method dynamic
+  // TODO: make sign in method dynamic 
   user && pushUserToDataLayer('Email');
 
   return null;
