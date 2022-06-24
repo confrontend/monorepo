@@ -30,7 +30,6 @@
   },
   "homepage": "https://github.com/Confrontend/monorepo#readme",
   "dependencies": {
-    "@confrontend/shared": "1.0.0",
     "@types/node": "16.11.34",
     "@types/react": "18.0.9",
     "@types/react-dom": "^18.0.3",

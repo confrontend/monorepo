@@ -1,4 +1,4 @@
 import { handleSignIn, useHandleAuth } from "./utils/auth-util";
-import { FirebaseProvider, useFirebaseApp } from "./providers/providers";
+import { FirebaseProvider, useFirebase } from "./providers/providers";
 
-export { handleSignIn, useHandleAuth, FirebaseProvider, useFirebaseApp };
+export { handleSignIn, useHandleAuth, FirebaseProvider, useFirebase };

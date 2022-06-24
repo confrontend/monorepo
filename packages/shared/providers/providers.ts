@@ -1,12 +1,13 @@
+import { User } from "firebase/auth";
 import { FirebaseApp } from "firebase/app";
 import { createContext, useContext } from "react";
 
-type firebaseContextType = FirebaseApp | undefined;
+type firebaseContextType = { app: FirebaseApp; user: User } | undefined;
 
 const firebaseContext = createContext<firebaseContextType>(undefined);
 
 const FirebaseProvider = firebaseContext.Provider;
 
-const useFirebaseApp = (): firebaseContextType => useContext(firebaseContext);
+const useFirebase = (): firebaseContextType => useContext(firebaseContext);
 
-export { FirebaseProvider, useFirebaseApp };
+export { FirebaseProvider, useFirebase };
