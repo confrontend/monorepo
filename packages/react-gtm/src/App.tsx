@@ -21,15 +21,12 @@ import {
   useHandleAuth,
 } from "@confrontend/shared";
 import SignInPage from "./pages/signin-page";
-import Gtm from "./components/gtm/gtm";
-
+import GoogleTagManager from "./components/gtm/gtm";
 
 function App() {
-
   const app = initializeApp(firebaseConfig);
   const [user, isLoading] = useHandleAuth(app);
   const signInFn = (e: FormEvent<HTMLFormElement>) => handleSignIn(e, app);
-  console.log("Hmed");
 
   return (
     <FirebaseProvider value={app}>
@@ -43,7 +40,7 @@ function App() {
         </S.SignInWrapper>
       ) : (
         <>
-          <Gtm />
+          <GoogleTagManager />
           <BrowserRouter>
             <Routes>
               <Route element={<Layout app={app} />}>
