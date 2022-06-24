@@ -1,4 +1,4 @@
-const BaseWebpackConfig = require("../../webpack.config.base.js");
+const BaseWebpackConfig = require("../../../webpack.config.base.js");
 const CopyPlugin = require("copy-webpack-plugin");
 
 const path = require("path");

@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/apps/*",
+    "packages/libs/*"
   ],
   "scripts": {
     "start:all": "lerna run --parallel start",

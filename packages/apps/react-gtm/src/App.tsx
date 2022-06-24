@@ -29,7 +29,7 @@ function App() {
   const signInFn = (e: FormEvent<HTMLFormElement>) => handleSignIn(e, app);
 
   return (
-    <FirebaseProvider value={app}>
+    <FirebaseProvider value={{ app: app, user: user }}>
       <S.GlobalStyle />
       {isLoading ? (
         //fixme: Styling

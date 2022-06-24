@@ -1,4 +1,5 @@
-const BaseWebpackConfig = require("../../webpack.config.base.js");
+/* eslint-disable @typescript-eslint/no-var-requires */
+const BaseWebpackConfig = require("../../../webpack.config.base.js");
 
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");

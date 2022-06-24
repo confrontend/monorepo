@@ -1,7 +1,6 @@
 import { FirebaseApp } from "firebase/app";
-import { getAuth, User } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword, User } from "firebase/auth";
 import { FormEvent, useEffect, useState } from "react";
-import { signInWithFirebase } from "../../react-usa-data-charts/src/apis/auth/auth-firebase";
 
 const useHandleAuth = (app: FirebaseApp | undefined): [User, boolean] => {
   const [user, setUser] = useState<any>(null);
@@ -41,6 +40,17 @@ const handleSignIn = (e: FormEvent<HTMLFormElement>, app: FirebaseApp) => {
     // fixme handle error properly
     alert(err);
   });
+};
+
+const signInWithFirebase = async (
+  e: FormEvent<HTMLFormElement>,
+  app: FirebaseApp,
+  email: string,
+  password: string
+) => {
+  e.preventDefault();
+  const auth = getAuth(app);
+  return await signInWithEmailAndPassword(auth, email, password);
 };
 
 export { useHandleAuth, handleSignIn };

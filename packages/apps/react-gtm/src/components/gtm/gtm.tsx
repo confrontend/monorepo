@@ -1,4 +1,4 @@
-import { useFirebaseApp, useHandleAuth } from "@confrontend/shared";
+import { useFirebase, useHandleAuth } from "@confrontend/shared";
 import { User } from "firebase/auth";
 import React, { useEffect } from "react";
 import { pushUserToDataLayer } from "./gtm-utils";
@@ -45,10 +45,11 @@ function GtmScript() {
 
 function GtmCustomEvents() {
   window.dataLayer = window.dataLayer || [];
-  const app = useFirebaseApp();
-  const [user] = useHandleAuth(app);
+  const firebase = useFirebase();
+  const [user] = useHandleAuth(firebase?.app);
 
-  user && pushUserToDataLayer(user);
+  // TODO: make sign in method dynamic
+  user && pushUserToDataLayer('Email');
 
   return null;
 }

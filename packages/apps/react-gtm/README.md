@@ -63,7 +63,7 @@
 
 - ToDO
 
-## Custom events
+## Passing custom events to Google Analytics
 
 - Triggers -> New -> Custom Event
 - Event Name: "TestingCustomEvents"
@@ -75,6 +75,29 @@ window.dataLayer.push({
   event: "TestingCustomEvents",
 });
 ```
+
+## GA Recommended events vs Custom events
+
+[GA4 Recommended events](https://support.google.com/analytics/answer/9267735?hl=en)
+
+ GA Recommended events are the same as custom events. Only their name and parameters are "prescribed" by Google. They won't be sent automatically as Automatic events (e.g page_view) do. 
+
+- In code
+
+```
+ window.dataLayer.push({
+   event: "MyLogin",
+   method: // set dynamically
+ });
+```
+- in GTM:
+  - Create a Tag of type GA Config with no trigger and call it: "GA Config"
+  -  Create a Tag of type GA Event. Call it "GA Login"
+     - Configuration Tag: "GA Config"
+     - Event Name: "login" (recommended by Google)
+     - Add a trigger of type Custom Event
+     - Event Name: "MyLogin" (same as event name in dataLayer)
+- Now in GTM and GA, you can see that events like scroll are collected automatically. 
 
 ## Variables
 
