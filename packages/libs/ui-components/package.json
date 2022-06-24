@@ -1,6 +1,6 @@
 {
   "name": "@confrontend/ui-components",
-  "version": "1.0.37",
+  "version": "1.0.45",
   "private": true,
   "main": "src/index.ts",
   "dependencies": {
