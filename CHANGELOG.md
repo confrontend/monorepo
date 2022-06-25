@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.1.0...Release_@confrontend/react-gtm_v1.2.0) (2022-06-25)
+
+
+### Features
+
+* custom event teaser-clicked ([dcc1f62](https://github.com/Confrontend/monorepo/commit/dcc1f623029db5645e7eaa468a62a26207c908b9))
+
+
+
+
+
 # [1.1.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.0.42...Release_@confrontend/react-gtm_v1.1.0) (2022-06-24)
 
 
