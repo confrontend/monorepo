@@ -59,9 +59,31 @@
 - https://www.svgrepo.com/svg/85761/image
 - https://newsapi.org/
 
-## Sending Events to Google Analytics
+## Sending Custom Events to Google Analytics
 
-- ToDO
+- In code
+
+```
+ window.dataLayer?.push({
+      event: "teaser-clicked",
+      teaserTitle: title,
+      teaserAuthor: author,
+    });
+```
+
+- in GTM:
+  - Tag: Teaser Click
+    - Type: GA4 Event
+    - Triggering: teaser-click-trigger
+  - Trigger: teaser-click-trigger
+    - Type: Custom Event -> Event name: teaser-clicked (same as in code)
+  - Variables:
+    - new User Defined Variable called: "dlv-teaser-author"
+      - Type: Data Layer Variable
+      - Data Layer Variable Name: teaserAuthor (same as in code)
+    - new User Defined Variable called: "dlv-teaser-title"
+      - Type: Data Layer Variable
+      - Data Layer Variable Name: teaserTitle (same as in code)
 
 ## Custom events
 

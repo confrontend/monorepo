@@ -1,4 +1,4 @@
-import { MouseEventHandler, MouseEvent } from "react";
+import { MouseEventHandler } from "react";
 import { handleDate } from "../../api/utiles";
 import * as S from "./teaser.styled";
 
@@ -26,12 +26,12 @@ export default function Teaser({
 }: TeaserProps): JSX.Element {
   const formattedDate = handleDate(publishedAt);
 
-  const onTeaserClick: MouseEventHandler<HTMLAnchorElement> = (
-    e: MouseEvent<HTMLAnchorElement>
-  ) => {
-
-   
-    
+  const onTeaserClick: MouseEventHandler<HTMLAnchorElement> = () => {
+    window.dataLayer?.push({
+      event: "teaser-clicked",
+      teaserTitle: title,
+      teaserAuthor: author,
+    });
   };
 
   return (
@@ -51,7 +51,6 @@ export default function Teaser({
         <span>{author}</span>
         <S.Date>{formattedDate}</S.Date>
       </S.AuthorDate>
-
 
       <S.Description>{description}</S.Description>
     </S.TeaserWrapper>
