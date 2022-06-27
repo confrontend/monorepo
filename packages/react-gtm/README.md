@@ -72,19 +72,22 @@
 ```
 
 - in GTM:
-  - Tag: Teaser Click
+  - Create: a Google Analytics: GA4 Configuration Tag. Name it "GA Config". only set the Measuring ID from GA.
+  - Trigger: Create "teaser-click-trigger"
+    - Type: Custom Event -> Event name: "teaser-clicked" (same as in code)
+  - Tag: Create "Teaser Click"
     - Type: GA4 Event
-    - Triggering: teaser-click-trigger
-  - Trigger: teaser-click-trigger
-    - Type: Custom Event -> Event name: teaser-clicked (same as in code)
+    - Configuration Tag: "GA Config"
+    - Triggering: "teaser-click-trigger"
   - Variables:
     - new User Defined Variable called: "dlv-teaser-author"
       - Type: Data Layer Variable
       - Data Layer Variable Name: teaserAuthor (same as in code)
     - new User Defined Variable called: "dlv-teaser-title"
       - Type: Data Layer Variable
-      - Data Layer Variable Name: teaserTitle (same as in code)
+      - Data Layer Variable Name: "teaserTitle" (same as in code)
 
+  Pro Tip: you can add all Event names such as "teaser-clicked", too your "GA Config" tag as a Field tuple. Field Name will be the  Event name (e.g "teaser-clicked") and Value will be a Variable 
 ## Custom events
 
 - Triggers -> New -> Custom Event

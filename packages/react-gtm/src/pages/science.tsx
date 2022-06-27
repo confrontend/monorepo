@@ -10,6 +10,7 @@ const cacheUrl = "data/science.json";
  * Page Science
  */
 export default function Science(): JSX.Element {
+  document.title = Category.science;
   const [teasers, setTeaser] = useState<NewsTeaser[]>(populateDefaultTeasers());
 
   useEffect(() => {

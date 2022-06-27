@@ -11,6 +11,7 @@ const cacheUrl = "data/business.json";
  * Page Business
  */
 export default function Business(): JSX.Element {
+  document.title = Category.business;
   const [teasers, setTeaser] = useState<NewsTeaser[]>(populateDefaultTeasers());
 
   useEffect(() => {

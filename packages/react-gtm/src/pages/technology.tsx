@@ -11,6 +11,8 @@ const cacheUrl = "data/technology.json";
  * Page Technology
  */
 export default function Technology(): JSX.Element {
+  document.title = Category.technology;
+
   const [teasers, setTeaser] = useState<NewsTeaser[]>(populateDefaultTeasers());
 
   useEffect(() => {
