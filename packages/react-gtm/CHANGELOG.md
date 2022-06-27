@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.2.0...Release_@confrontend/react-gtm_v1.3.0) (2022-06-27)
+
+
+### Features
+
+* document title, readme update ([97b6667](https://github.com/Confrontend/monorepo/commit/97b666749c7c2a98d2fbe01e21a03de4af40145c))
+
+
+
+
+
 # [1.2.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.1.0...Release_@confrontend/react-gtm_v1.2.0) (2022-06-25)
 
 
