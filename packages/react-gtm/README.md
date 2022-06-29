@@ -43,12 +43,20 @@
 
 ## Creating Triggers
 
--
 
+
+## TODO Page view trigger on variable change
+
+## TODO Trigger type timer interval
+
+## TODO Trigger Pause
+
+## TODO Folder
 ## Tag Sequencing
 
 - Tag Advanced Settings
 - Tag Sequencing -> Fire tag after ... -> Select a Tag
+
 
 ## Single Page Application
 
