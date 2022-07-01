@@ -30,6 +30,7 @@
 
 - On container Dashboard, click on Tags -> Add new
 - Tag Configuration: Google Analytics: GA4 Configuration
+- Create analytics account https://analytics.google.com/
 - Get Measurement ID (in older versions: Tracking ID) from Google Analytics. Go to Google Analytics -> Search For Measurement ID (should look like: G-xxxxxxxx)
 
 ## Definitions
