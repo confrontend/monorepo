@@ -1,5 +1,5 @@
 {
-  "name": "@confrontend/blog-nextjs-aws",
+  "name": "@confrontend/blog-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {

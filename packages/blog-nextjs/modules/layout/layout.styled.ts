@@ -1,4 +1,4 @@
-import { onDarkText, dark } from "./../../../blog/src/global/colors";
+import { onDarkText, dark } from "../../../blog/src/global/colors";
 import styled from "styled-components";
 
 export const Wrapper = styled.span`

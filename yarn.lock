@@ -869,8 +869,8 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
-"@confrontend/blog-nextjs-aws@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/blog-nextjs-aws":
-  "resolved" "file:packages/blog-nextjs-aws"
+"@confrontend/blog-nextjs@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/blog-nextjs":
+  "resolved" "file:packages/blog-nextjs"
   "version" "0.1.0"
   dependencies:
     "next" "12.2.0"

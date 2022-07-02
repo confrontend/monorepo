@@ -23,11 +23,27 @@ export const Summary = styled.div`
   border-radius: 1em;
 `;
 
-export const TechCloud = styled.div`
+export const TechCloudIcons = styled.div`
   grid-area: tech-cloud;
   font-size: 2.9em;
-  *{
-    padding: 0 0.4em 0.4em 0;
+  position: relative;
+  display: flex;
+  gap: 0.4em;
+  flex-wrap: wrap;
+
+  * {
+    text-align: center;
+    ::after {
+      content: attr(data-content);
+      font-size: 0.3em;
+      display: block;
+    }
+  }
+`;
+
+export const TechCloud = styled.span`
+  h1 {
+    margin-bottom: 1.5em;
   }
 `;
 

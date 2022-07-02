@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import * as S from "../modules/resume/resume.styled";
 import { IResume } from "../modules/resume/resume.types";
+
 // https://react-icons.github.io/react-icons/search?q=react
 import {
   FaReact,
@@ -26,6 +27,7 @@ import {
   SiIntellijidea,
   SiBabel,
   SiKubernetes,
+  SiVisualstudio,
 } from "react-icons/si";
 
 export default function Resume({
@@ -44,27 +46,72 @@ export default function Resume({
         </S.SummaryInfo>
       </S.Summary>
       <S.TechCloud>
-        <FaReact title="React" />
-        <SiAngular title="Angular" />
-        <SiRedux title="Redux" />
-        <SiJavascript title="Javascript" />
-        <TbBrandNextjs title="Nextjs" />
-        <SiTypescript title="Typescript" />
-        <FaGithub title="Github" />
-        <FaHtml5 title="Html5" />
-        <FaSass title="Sass" />
-        <SiCsswizardry title="Css" />
-        <SiWebpack title="Webpack" />
-        <SiKubernetes title="Kubernetes" />
-        <GiJasmine title="Jasmine" />
-        <SiCypress title="Cypress" />
-        <FaAws title="Aws" />
-        <FaDocker title="Docker" />
-        <SiMicrosoftazure title="MS Azure" />
-        <SiIntellijidea title="Intellij" />
-        <SiBabel title="Babel" />
+        <h1>Tech Stack</h1>
+        <S.TechCloudIcons>
+          <span data-content="React">
+            <FaReact title="React" />
+          </span>
+          <span data-content="Angular">
+            <SiAngular title="Angular" />
+          </span>
+          <span data-content="Redux">
+            <SiRedux title="Redux" />
+          </span>
+          <span data-content="JS">
+            <SiJavascript title="Javascript" />
+          </span>
+          <span data-content="Nextjs">
+            <TbBrandNextjs title="Nextjs" />
+          </span>
+          <span data-content="TS">
+            <SiTypescript title="Typescript" />
+          </span>
+          <span data-content="Github">
+            <FaGithub title="Github" />
+          </span>
+          <span data-content="Html5">
+            <FaHtml5 title="Html5" />
+          </span>
+          <span data-content="Sass">
+            <FaSass title="Sass" />
+          </span>
+          <span data-content="Css">
+            <SiCsswizardry title="Css" />
+          </span>
+          <span data-content="Webpack">
+            <SiWebpack title="Webpack" />
+          </span>
+          <span data-content="Kubernetes">
+            <SiKubernetes title="Kubernetes" />
+          </span>
+          <span data-content="Jasmine">
+            <GiJasmine title="Jasmine" />
+          </span>
+          <span data-content="Cypress">
+            <SiCypress title="Cypress" />
+          </span>
+          <span data-content="Aws">
+            <FaAws title="Aws" />
+          </span>
+          <span data-content="Docker">
+            <FaDocker title="Docker" />
+          </span>
+          <span data-content="Azure">
+            <SiMicrosoftazure title="MS Azure" />
+          </span>
+          <span data-content="VSCode">
+            <SiVisualstudio title="VS Code" />
+          </span>
+          <span data-content="Intellij">
+            <SiIntellijidea title="Intellij" />
+          </span>
+          <span data-content="Babel">
+            <SiBabel title="Babel" />
+          </span>
+        </S.TechCloudIcons>
       </S.TechCloud>
       <S.Details>
+        <hr />
         <>
           <h1>Work Experience</h1>
           {jobs.map((job, i) => {
@@ -129,7 +176,16 @@ export default function Resume({
   );
 }
 
+/**
+ * If you export a function called getStaticProps (Static Site Generation) from a page,
+ * Next.js will pre-render this page at build time using the props returned by getStaticProps
+ * You should use getStaticProps if:
+ * - The data required to render the page is available at build time ahead of a user’s request
+ * - The page must be pre-rendered (for SEO) and be very fast — getStaticProps generates HTML and JSON files, 
+ *   both of which can be cached by a CDN for performance
+ */
 export async function getStaticProps() {
+  // TODO make base url dynamic
   const req = await axios.get("http://localhost:3000/resume.json");
 
   const { jobs, education, workshops, interests, languages } = req?.data;
