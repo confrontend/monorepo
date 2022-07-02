@@ -13,35 +13,23 @@ export const Wrapper = styled.span`
 
 export const Navigation = styled.span`
   grid-area: nav;
+  display: flex;
   position: sticky;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
   top: 0;
   z-index: 1;
-  background-color: ${onDarkText};
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
   background-color: ${dark};
+  margin-bottom: 1em;
+  padding: 1em 2em 1em 2em;
   .github {
     margin-left: auto;
-    padding: 0.4em;
   }
+  border-bottom: 0.1em solid #323742;
 `;
 
 export const Main = styled.main`
   grid-area: main-content;
-`;
-
-export const Footer = styled.footer`
-  /* grid-row-start, grid-column-start, grid-row-end , and grid-column-end. */
-  grid-area: 3 / 1 / 4 / 1;
-  background-color: #ddd;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  font-weight: 200;
-  font-size: 0.8em;
-  height: 10em;
+  padding: 0 2em 0 2em;
 `;

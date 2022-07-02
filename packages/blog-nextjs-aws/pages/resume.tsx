@@ -2,6 +2,31 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import * as S from "../modules/resume/resume.styled";
 import { IResume } from "../modules/resume/resume.types";
+// https://react-icons.github.io/react-icons/search?q=react
+import {
+  FaReact,
+  FaGithub,
+  FaHtml5,
+  FaSass,
+  FaAws,
+  FaDocker,
+} from "react-icons/fa";
+
+import { TbBrandNextjs } from "react-icons/tb";
+import { GiJasmine } from "react-icons/gi";
+import {
+  SiRedux,
+  SiTypescript,
+  SiJavascript,
+  SiCsswizardry,
+  SiWebpack,
+  SiCypress,
+  SiAngular,
+  SiMicrosoftazure,
+  SiIntellijidea,
+  SiBabel,
+  SiKubernetes,
+} from "react-icons/si";
 
 export default function Resume({
   jobs,
@@ -18,6 +43,27 @@ export default function Resume({
           Hamed Fatehi M.Sc. Stuttgart University 🇩🇪 Software Architect
         </S.SummaryInfo>
       </S.Summary>
+      <S.TechCloud>
+        <FaReact title="React" />
+        <SiAngular title="Angular" />
+        <SiRedux title="Redux" />
+        <SiJavascript title="Javascript" />
+        <TbBrandNextjs title="Nextjs" />
+        <SiTypescript title="Typescript" />
+        <FaGithub title="Github" />
+        <FaHtml5 title="Html5" />
+        <FaSass title="Sass" />
+        <SiCsswizardry title="Css" />
+        <SiWebpack title="Webpack" />
+        <SiKubernetes title="Kubernetes" />
+        <GiJasmine title="Jasmine" />
+        <SiCypress title="Cypress" />
+        <FaAws title="Aws" />
+        <FaDocker title="Docker" />
+        <SiMicrosoftazure title="MS Azure" />
+        <SiIntellijidea title="Intellij" />
+        <SiBabel title="Babel" />
+      </S.TechCloud>
       <S.Details>
         <>
           <h1>Work Experience</h1>

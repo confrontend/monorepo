@@ -9,6 +9,7 @@ export const Container = styled.div`
   min-height: 100%;
   grid-template-areas:
     "summary"
+    "tech-cloud"
     "details";
   grid-template-rows: auto 1fr;
 `;
@@ -19,9 +20,15 @@ export const Summary = styled.div`
   align-items: center;
   gap: 2em;
   margin-bottom: 2em;
-  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1em;
-  padding: 1em;
+`;
+
+export const TechCloud = styled.div`
+  grid-area: tech-cloud;
+  font-size: 2.9em;
+  *{
+    padding: 0 0.4em 0.4em 0;
+  }
 `;
 
 export const SummaryImage = styled.img`
@@ -40,11 +47,11 @@ export const Details = styled.div`
   width: 100%;
 
   code {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   p {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 
   hr {
