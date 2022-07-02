@@ -1,18 +1,18 @@
 name: Deploy to Firebase Hosting on release tag push (@confrontend/blog-nextjs)
-'on':
+"on":
   push:
     tags:
-      - 'Release_@confrontend/blog_v*.*.*'
+      - "Release_@confrontend/blog_v*.*.*"
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm ci --legacy-peer-deps && cd packages/blog-nextjs && npm run build
+      - run: npm ci && cd packages/blog-nextjs && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG_CONFRONTEND }}'
-          entryPoint: './packages/blog-nextjs'
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG_CONFRONTEND }}"
+          entryPoint: "./packages/blog-nextjs"
           channelId: live
           projectId: blog-confrontend
