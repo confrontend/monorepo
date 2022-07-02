@@ -19,7 +19,7 @@ export const Navigation = styled.span`
   align-items: center;
   gap: 2em;
   top: 0;
-  z-index: 1; 
+  z-index: 1;
   background-color: ${dark};
   margin-bottom: 1em;
   padding: 1em 2em 1em 2em;
