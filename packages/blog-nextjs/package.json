@@ -1,6 +1,6 @@
 {
   "name": "@confrontend/blog-nextjs",
-  "version": "0.1.0",
+  "version": "1.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,7 +12,7 @@
     "next": "12.2.0"
   },
   "devDependencies": {
-    "eslint-config-next": "12.2.0",
-    "babel-plugin-styled-components": "latest"
+    "babel-plugin-styled-components": "latest",
+    "eslint-config-next": "12.2.0"
   }
 }

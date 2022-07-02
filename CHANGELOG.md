@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/blog_v1.0.41...Release_@confrontend/blog_v1.4.0) (2022-07-02)
+
+
+### Features
+
+* custom event teaser-clicked ([dcc1f62](https://github.com/Confrontend/monorepo/commit/dcc1f623029db5645e7eaa468a62a26207c908b9))
+* document title, readme update ([97b6667](https://github.com/Confrontend/monorepo/commit/97b666749c7c2a98d2fbe01e21a03de4af40145c))
+* gtm utils and improving FirebaseProvider ([a6be644](https://github.com/Confrontend/monorepo/commit/a6be644a755bac87b0202de36be29664000e2dd0))
+* improve styling of blog-nextjs ([8aaadfe](https://github.com/Confrontend/monorepo/commit/8aaadfeee8f0250189a30f2e4af545e5d524f375))
+* new package: blog-nextjs-aws ([631e63a](https://github.com/Confrontend/monorepo/commit/631e63a4763bfa2d08776a993f150b717d4f9183))
+
+
+
+
+
 ## [1.3.1](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.3.0...Release_@confrontend/react-gtm_v1.3.1) (2022-06-29)
 
 **Note:** Version bump only for package packages
