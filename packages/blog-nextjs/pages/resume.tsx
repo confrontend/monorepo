@@ -29,6 +29,7 @@ import {
   SiKubernetes,
   SiVisualstudio,
 } from "react-icons/si";
+import { getResume } from "../modules/global/utils";
 
 export default function Resume({
   jobs,
@@ -181,14 +182,13 @@ export default function Resume({
  * Next.js will pre-render this page at build time using the props returned by getStaticProps
  * You should use getStaticProps if:
  * - The data required to render the page is available at build time ahead of a user’s request
- * - The page must be pre-rendered (for SEO) and be very fast — getStaticProps generates HTML and JSON files, 
+ * - The page must be pre-rendered (for SEO) and be very fast — getStaticProps generates HTML and JSON files,
  *   both of which can be cached by a CDN for performance
  */
 export async function getStaticProps() {
-  // TODO make base url dynamic
-  const req = await axios.get("http://localhost:3000/resume.json");
+  const data = await getResume();
 
-  const { jobs, education, workshops, interests, languages } = req?.data;
+  const { jobs, education, workshops, interests, languages } = data;
 
   return {
     props: { jobs, education, workshops, interests, languages },

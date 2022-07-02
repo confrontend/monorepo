@@ -871,30 +871,30 @@
 
 "@confrontend/blog-nextjs@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/blog-nextjs":
   "resolved" "file:packages/blog-nextjs"
-  "version" "0.1.0"
+  "version" "1.4.3"
   dependencies:
     "next" "12.2.0"
 
 "@confrontend/blog@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/blog":
   "resolved" "file:packages/blog"
-  "version" "1.0.42"
+  "version" "1.4.0"
   dependencies:
-    "@confrontend/ui-components" "^1.0.37"
+    "@confrontend/ui-components" "^1.4.0"
     "@types/react-helmet" "^6.1.5"
     "react-helmet" "^6.1.0"
 
 "@confrontend/react-gtm@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/react-gtm":
   "resolved" "file:packages/react-gtm"
-  "version" "1.3.1"
+  "version" "1.4.0"
   dependencies:
     "web-vitals" "2.1.4"
 
 "@confrontend/react-usa-data-charts@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/react-usa-data-charts":
   "resolved" "file:packages/react-usa-data-charts"
-  "version" "1.3.1"
+  "version" "1.4.0"
   dependencies:
-    "@confrontend/shared" "^1.1.0"
-    "@confrontend/ui-components" "^1.0.37"
+    "@confrontend/shared" "^1.4.0"
+    "@confrontend/ui-components" "^1.4.0"
     "@emotion/react" "11.9.0"
     "@emotion/styled" "11.8.1"
     "@mui/material" "5.8.1"
@@ -904,13 +904,13 @@
     "tinygradient" "1.1.5"
     "write-json-file" "5.0.0"
 
-"@confrontend/shared@^1.1.0", "@confrontend/shared@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/shared":
+"@confrontend/shared@^1.4.0", "@confrontend/shared@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/shared":
   "resolved" "file:packages/shared"
-  "version" "1.1.0"
+  "version" "1.4.0"
 
-"@confrontend/ui-components@^1.0.37", "@confrontend/ui-components@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/ui-components":
+"@confrontend/ui-components@^1.4.0", "@confrontend/ui-components@file:/Users/hfatehi/Desktop/To Keep/2022/projects/monorepo/packages/ui-components":
   "resolved" "file:packages/ui-components"
-  "version" "1.0.37"
+  "version" "1.4.0"
   dependencies:
     "@testing-library/jest-dom" "^5.16.4"
     "@testing-library/react" "^13.3.0"
@@ -10834,7 +10834,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@*", "react@^16.3.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.0.0", "react@^18.1.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0":
+"react@*", "react@^16.11.0 || ^17.0.0 || ^18.0.0", "react@^16.3.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.0.0", "react@^18.1.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -12051,6 +12051,11 @@
     "csso" "^4.2.0"
     "picocolors" "^1.0.0"
     "stable" "^0.1.8"
+
+"swr@^1.3.0":
+  "integrity" "sha512-dkghQrOl2ORX9HYrMDtPa7LTVHJjCTeZoB1dqTbnnEDlSvN8JEKpYIYurDfvbQFUUS8Cg8PceFVZNkW0KNNYPw=="
+  "resolved" "https://registry.npmjs.org/swr/-/swr-1.3.0.tgz"
+  "version" "1.3.0"
 
 "symbol-tree@^3.2.4":
   "integrity" "sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw=="
