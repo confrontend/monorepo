@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.3.1...Release_@confrontend/react-gtm_v1.7.0) (2022-07-05)
+
+
+### Features
+
+* new package: blog-nextjs-aws ([631e63a](https://github.com/Confrontend/monorepo/commit/631e63a4763bfa2d08776a993f150b717d4f9183))
+* temp responsive solution for header of GTM ([7816402](https://github.com/Confrontend/monorepo/commit/78164026c896d2cb7e3415b65b5cb441bc4e9b7b))
+
+
+
+
+
 # [1.4.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/blog_v1.0.41...Release_@confrontend/blog_v1.4.0) (2022-07-02)
 
 

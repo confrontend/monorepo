@@ -1,6 +1,6 @@
 {
   "name": "@confrontend/react-usa-data-charts",
-  "version": "1.4.0",
+  "version": "1.7.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@confrontend/shared": "^1.4.0",
-    "@confrontend/ui-components": "^1.4.0",
+    "@confrontend/ui-components": "^1.7.0",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
     "@mui/material": "5.8.1",

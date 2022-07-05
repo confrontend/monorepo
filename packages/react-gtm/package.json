@@ -1,6 +1,6 @@
 {
   "name": "@confrontend/react-gtm",
-  "version": "1.4.0",
+  "version": "1.7.0",
   "private": true,
   "dependencies": {
     "web-vitals": "2.1.4"

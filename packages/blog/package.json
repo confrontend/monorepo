@@ -1,6 +1,6 @@
 {
   "name": "@confrontend/blog",
-  "version": "1.4.0",
+  "version": "1.7.0",
   "private": true,
   "scripts": {
     "start": "webpack serve  --hot ",
@@ -13,7 +13,7 @@
     ]
   },
   "dependencies": {
-    "@confrontend/ui-components": "^1.4.0",
+    "@confrontend/ui-components": "^1.7.0",
     "@types/react-helmet": "^6.1.5",
     "react-helmet": "^6.1.0"
   },

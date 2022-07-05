@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.3.1...Release_@confrontend/react-gtm_v1.7.0) (2022-07-05)
+
+
+### Features
+
+* dynamically resolve resume.json from public folder ([d4ebce8](https://github.com/Confrontend/monorepo/commit/d4ebce8adb01fce3c6398baf747bdb2fdf6011f8))
+* firebase json ([ebdd55f](https://github.com/Confrontend/monorepo/commit/ebdd55f4e373d4a9eb5a9f58e4774275b0c7120a))
+* improve styling of blog-nextjs ([8aaadfe](https://github.com/Confrontend/monorepo/commit/8aaadfeee8f0250189a30f2e4af545e5d524f375))
+* new package: blog-nextjs-aws ([631e63a](https://github.com/Confrontend/monorepo/commit/631e63a4763bfa2d08776a993f150b717d4f9183))
+* temp responsive solution for header of GTM ([7816402](https://github.com/Confrontend/monorepo/commit/78164026c896d2cb7e3415b65b5cb441bc4e9b7b))
+
+
+
+
+
 ## [1.6.1](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/blog_v1.6.0...Release_@confrontend/blog_v1.6.1) (2022-07-02)
 
 **Note:** Version bump only for package packages
