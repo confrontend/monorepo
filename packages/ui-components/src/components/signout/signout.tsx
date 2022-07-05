@@ -14,7 +14,7 @@ export default function SignOut({
       color="#000"
       bgColor="#fff"
     >
-      Sign out
+      Sign Out
     </UiButton>
   );
 }

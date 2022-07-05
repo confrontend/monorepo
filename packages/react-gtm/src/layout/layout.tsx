@@ -14,7 +14,9 @@ const Layout = ({ app }: { app: FirebaseApp }): JSX.Element => {
     <S.Wrapper>
       <S.Navigation>
         <Navbar />
-        <UISignOut signOutFn={signOutFn} />
+        <S.SignOutWrapper>
+          <UISignOut signOutFn={signOutFn} />
+        </S.SignOutWrapper>
       </S.Navigation>
       <S.Main>
         {/* <CacheContextProvider value={value}> */}

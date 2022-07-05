@@ -88,6 +88,9 @@
     - Type: GA4 Event
     - Configuration Tag: "GA Config"
     - Triggering: "teaser-click-trigger"
+    - Event Parameters: 
+      teaserAuthor : {{dlv-teaser-author}}
+      teaserTitle : {{dlv-teaser-title}}
   - Variables:
     - new User Defined Variable called: "dlv-teaser-author"
       - Type: Data Layer Variable
@@ -95,8 +98,11 @@
     - new User Defined Variable called: "dlv-teaser-title"
       - Type: Data Layer Variable
       - Data Layer Variable Name: "teaserTitle" (same as in code)
+  - in GA:
+    - Configure -> Custom defenitions
+    - teaser_clicked_author_dim (Event Parameter: "teaserAuthor", Scope: Event)
+    - teaser_clicked_title_dim (Event Parameter: "teaserTitle", Scope: Event)
 
-  Pro Tip: you can add all Event names such as "teaser-clicked", too your "GA Config" tag as a Field tuple. Field Name will be the  Event name (e.g "teaser-clicked") and Value will be a Variable 
 ## Custom events
 
 - Triggers -> New -> Custom Event

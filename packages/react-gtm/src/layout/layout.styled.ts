@@ -1,4 +1,5 @@
 import styled from "styled-components";
+const mobileWidth = "768px";
 
 export const Wrapper = styled.span`
   margin: 0;
@@ -10,6 +11,15 @@ export const Wrapper = styled.span`
   grid-template-rows: auto 1fr;
 `;
 
+export const SignOutWrapper = styled.span`
+  @media (max-width: ${mobileWidth}) {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+  }
+`;
+
 export const Navigation = styled.span`
   grid-area: nav;
   position: sticky;
@@ -17,7 +27,11 @@ export const Navigation = styled.span`
   z-index: 1;
   background-color: #fff;
   display: flex;
+
   flex-direction: row;
+  @media (max-width: ${mobileWidth}) {
+    flex-direction: column;
+  }
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -29,8 +43,7 @@ export const Navigation = styled.span`
 `;
 
 export const Main = styled.main`
- 
-  @media (min-width: 450px) {
+  @media (min-width: 480px) {
     padding: 4em 8em 4em 8em;
   }
 

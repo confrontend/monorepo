@@ -83,10 +83,12 @@ export const MobileMenuWrapper = styled.span<{ isMobileMenuVisible: boolean }>`
 
   @media (max-width: ${mobileWidth}) {
     display: flex;
-    justify-content: space-evenly;
-    background-color: #222;
+    width: 100%;
     color: #eee;
     height: 1.5em;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
 
     ${({ isMobileMenuVisible }) => css`
       ${!isMobileMenuVisible &&
