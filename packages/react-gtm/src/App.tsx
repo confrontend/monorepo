@@ -22,6 +22,7 @@ import {
 } from "@confrontend/shared";
 import SignInPage from "./pages/signin-page";
 import GoogleTagManager from "./components/gtm/google-tag-manager";
+import Home from "./pages/home";
 
 function App() {
   const app = initializeApp(firebaseConfig);
@@ -44,7 +45,8 @@ function App() {
           <BrowserRouter>
             <Routes>
               <Route element={<Layout app={app} />}>
-                <Route path="" element={<Technology />} />
+                <Route path="" element={<Home />} />
+                <Route path={MenuItem.technology} element={<Technology />} />
                 <Route path={MenuItem.business} element={<Business />} />
                 <Route path={MenuItem.science} element={<Science />} />
                 <Route path="*" element={<NoPage />} />

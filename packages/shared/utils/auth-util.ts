@@ -13,7 +13,6 @@ const useHandleAuth = (app: FirebaseApp | undefined): [User, boolean] => {
         console.log(userAuth);
 
         if (userAuth) {
-          console.log(userAuth);
           setUser(userAuth);
         } else {
           setUser(null);

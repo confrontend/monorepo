@@ -12,6 +12,12 @@ export default function NavLinks(): JSX.Element {
         to="/"
         className={({ isActive }) => (isActive ? "link-active" : "link")}
       >
+        {MenuItem.home}
+      </NavLink>
+      <NavLink
+        to={MenuItem.technology}
+        className={({ isActive }) => (isActive ? "link-active" : "link")}
+      >
         {MenuItem.technology}
       </NavLink>
       <NavLink

@@ -1,11 +1,31 @@
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const webpack = require("webpack");
 
 const BaseWebpackConfig = {
   entry: "./src/index.tsx",
-
   mode: process.env.NODE_ENV || "development",
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
+    fallback: {
+      https: false,
+      http: false,
+      querystring: false,
+      url: false,
+      stream: false,
+      os: false,
+      path: false,
+      crypto: false,
+      fs: false,
+      child_process: false,
+      net: false,
+      dns: false,
+      tls: false,
+      zlib: false,
+      buffer: false,
+      util: false,
+      assert: false,
+      request: false,
+    },
   },
   devServer: {
     // Enable hot reloading
@@ -35,13 +55,22 @@ const BaseWebpackConfig = {
       },
       {
         test: /\.js$/,
-        enforce: 'pre',
+        enforce: "pre",
         // loading source maps
-        use: ['source-map-loader'],
+        use: ["source-map-loader"],
       },
     ],
   },
-  plugins: [new CleanWebpackPlugin()],
+  ignoreWarnings: [/Failed to parse source map/],
+  plugins: [
+    new CleanWebpackPlugin(),
+    // new webpack.ProvidePlugin({
+    //   process: "process/browser",
+    // }),
+    new webpack.DefinePlugin({
+      process: {env: {}}
+  })
+  ],
 };
 
 module.exports = BaseWebpackConfig;
