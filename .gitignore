@@ -26,3 +26,4 @@ packages/**/.firebase/**
 **/.DS_Store
 .DS_Store
 packages/react-gtm/.env
+test-analytics
