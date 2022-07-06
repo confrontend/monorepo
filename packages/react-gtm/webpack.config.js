@@ -1,5 +1,7 @@
 const BaseWebpackConfig = require("../../webpack.config.base.js");
 const CopyPlugin = require("copy-webpack-plugin");
+const webpack = require("webpack");
+const dotenv = require("dotenv");
 
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -17,6 +19,9 @@ module.exports = {
         { from: "./public/data", to: "./data" },
         { from: "./public/images", to: "./images" },
       ],
+    }),
+    new webpack.DefinePlugin({
+      "process.env": JSON.stringify(dotenv.config().parsed),
     }),
   ],
 };
