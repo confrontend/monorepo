@@ -10,8 +10,6 @@ const useHandleAuth = (app: FirebaseApp | undefined): [User, boolean] => {
   useEffect(() => {
     const unsubscribe = getAuth(app)?.onAuthStateChanged(
       (userAuth: User | null) => {
-        console.log(userAuth);
-
         if (userAuth) {
           setUser(userAuth);
         } else {
