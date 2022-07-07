@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.7.0...Release_@confrontend/react-gtm_v1.8.0) (2022-07-07)
+
+**Note:** Version bump only for package @confrontend/react-usa-data-charts
+
+
+
+
+
 # [1.7.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.3.1...Release_@confrontend/react-gtm_v1.7.0) (2022-07-05)
 
 
