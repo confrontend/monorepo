@@ -8,14 +8,14 @@ import { NavLink } from "react-router-dom";
 export default function NavLinks(): JSX.Element {
   return (
     <>
-      <NavLink
+      {/* <NavLink
         to="/"
         className={({ isActive }) => (isActive ? "link-active" : "link")}
       >
         {MenuItem.home}
-      </NavLink>
+      </NavLink> */}
       <NavLink
-        to={MenuItem.technology}
+        to="/"
         className={({ isActive }) => (isActive ? "link-active" : "link")}
       >
         {MenuItem.technology}
