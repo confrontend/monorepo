@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.8.0...Release_@confrontend/react-gtm_v1.9.0) (2022-07-07)
+
+
+### Features
+
+* removing home page temprorary ([bc825b6](https://github.com/Confrontend/monorepo/commit/bc825b6eb2c95c4c4e9d3c9e47f468cd951686eb))
+
+
+
+
+
 # [1.8.0](https://github.com/Confrontend/monorepo/compare/Release_@confrontend/react-gtm_v1.7.0...Release_@confrontend/react-gtm_v1.8.0) (2022-07-07)
 
 
