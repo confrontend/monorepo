@@ -47,9 +47,12 @@ export const TechCloud = styled.span`
   }
 `;
 
-export const SummaryImage = styled.img`
-  border-radius: 50%;
+export const SummaryImage = styled.span`
   width: 7em;
+  height: 7em;
+  .profilePhoto {
+    border-radius: 50%;
+  }
 `;
 
 export const SummaryInfo = styled.div`

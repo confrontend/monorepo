@@ -24,7 +24,7 @@ export const Summary = styled.div`
   padding: 1em;
 `;
 
-export const SummaryImage = styled.img`
+export const SummaryImage = styled.span`
   border-radius: 50%;
   width: 7em;
 `;

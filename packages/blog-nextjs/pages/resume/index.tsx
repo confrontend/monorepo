@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import * as S from "../modules/resume/resume.styled";
-import { IResume } from "../modules/resume/resume.types";
+import * as S from "../../modules/resume/resume.styled";
+import { IResume } from "../../modules/resume/resume.types";
+import Image from "next/image";
+import HamedSrc from "../../public/hamed.png";
 
 // https://react-icons.github.io/react-icons/search?q=react
 import {
@@ -29,7 +31,7 @@ import {
   SiKubernetes,
   SiVisualstudio,
 } from "react-icons/si";
-import { getResume } from "../modules/global/utils";
+import { getResume } from "../../modules/global/utils";
 
 export default function Resume({
   jobs,
@@ -41,7 +43,14 @@ export default function Resume({
   return (
     <S.Container>
       <S.Summary>
-        <S.SummaryImage src="hamed.png" />
+        <S.SummaryImage>
+          <Image
+            className="profilePhoto"
+            src={HamedSrc}
+            priority={true}
+            alt={"Hamed Fatehi Photo"}
+          />
+        </S.SummaryImage>
         <S.SummaryInfo>
           Hamed Fatehi M.Sc. Stuttgart University 🇩🇪 Software Architect
         </S.SummaryInfo>
